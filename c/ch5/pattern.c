@@ -147,7 +147,7 @@ PetscErrorCode InitialState(DM da, Vec Y, PetscReal noiselevel, PatternCtx* user
   DMDALocalInfo    info;
   PetscInt         i,j;
   PetscReal        sx,sy;
-  const PetscReal  ledge = (user->L - 0.5) / 2.0, // nontrivial initial values on
+  const PetscReal  ledge = (user->L - 1.5) / 2.0, // nontrivial initial values on
                    redge = user->L - ledge;       //   ledge < x,y < redge
   DMDACoor2d       **aC;
   Field            **aY;
@@ -156,8 +156,8 @@ PetscErrorCode InitialState(DM da, Vec Y, PetscReal noiselevel, PatternCtx* user
   if (noiselevel > 0.0) {
       // noise added to usual initial condition is uniform on [0,noiselevel],
       //     independently for each location and component
-      PetscCall(VecSetRandom(Y,NULL));
-      PetscCall(VecScale(Y,noiselevel));
+      //PetscCall(VecSetRandom(Y,NULL));
+      //PetscCall(VecScale(Y,noiselevel));
   }
   PetscCall(DMDAGetLocalInfo(da,&info));
   PetscCall(DMDAGetCoordinateArray(da,&aC));

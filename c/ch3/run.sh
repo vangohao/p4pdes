@@ -1,0 +1,3 @@
+#!/bin/bash
+./poisson -da_grid_x 9 -da_grid_y 9 -da_refine 1 -ksp_converged_reason -ksp_type cg -pc_type mg -mg_levels_ksp_type richardson -mg_levels_ksp_max_it 1 -pc_mg_levels 2 -ksp_max_it 50 -mg_coarse_ksp_type richardson -mg_coarse_ksp_max_it 1 -mg_coarse_pc_type sor -mat_type aij -log_view -ksp_monitor -ksp_view -pc_mg_galerkin both
+# ./poisson -da_grid_x 9 -da_grid_y 9 -ksp_converged_reason -pc_type none -ksp_type cg -ksp_view -ksp_monitor
