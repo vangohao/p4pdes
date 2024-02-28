@@ -236,11 +236,51 @@ int main(int argc,char **argv) {
     // set initial iterate and then solve
     PetscCall(DMGetGlobalVector(da,&u_initial));
     PetscCall(InitialState(da, initial, gonboundary, u_initial, &user));
-    PetscCall(SNESSolve(snes,NULL,u_initial));
-//ENDCREATE
 
-//STARTGETSOLUTION
-    // -snes_grid_sequence could change grid resolution
+    // setup
+    PetscCall(SNESSetUp(snes));
+
+    // Warm up (此轮限制/提升在CPU上计算)
+    Vec u_initial2;
+    PetscCall(DMGetGlobalVector(da, &u_initial2));
+    PetscCall(VecCopy(u_initial, u_initial2));
+
+    PetscCall(SNESSolve(snes, NULL, u_initial2));
+
+    // 设置MG相关设置
+    PC pc;
+    Mat mat_interpolation, mat_restrict, mat_ksp;
+    PetscInt mg_levels;
+    PetscCall(KSPGetPC(ksp, &pc));
+
+    PCType pc_type;
+    PetscCall(PCGetType(pc, &pc_type));
+
+    if (strcmp(pc_type, PCMG) == 0)
+    {
+        PetscCall(KSPGetOperators(ksp, &mat_ksp, NULL));
+        MatType mat_type;
+        PetscCall(MatGetType(mat_ksp, &mat_type));
+
+        PetscCall(PCMGGetLevels(pc, &mg_levels));
+        for (int i = 1; i < mg_levels; i++)
+        {
+            PetscCall(PCMGGetInterpolation(pc, i, &mat_interpolation));
+            PetscCall(MatSetType(mat_interpolation, mat_type));
+        }
+
+        // GPU测试
+        PetscLogStage stage;
+        PetscLogStageRegister("SNESSolveOnGPU", &stage);
+        PetscLogStagePush(stage);
+        PetscCall(SNESSolve(snes, NULL, u_initial));
+        PetscLogStagePop();
+    }
+
+    // ENDCREATE
+
+    // STARTGETSOLUTION
+    //  -snes_grid_sequence could change grid resolution
     PetscCall(DMRestoreGlobalVector(da,&u_initial));
     PetscCall(DMDestroy(&da));
 
