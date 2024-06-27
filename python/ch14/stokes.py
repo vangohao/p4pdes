@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 
-import sys
 from argparse import ArgumentParser, RawTextHelpFormatter
-from firedrake import *
-from firedrake.petsc import PETSc
-
 parser = ArgumentParser(description="""
 Solve a linear Stokes problem in 2D, an example of a saddle-point system.
 Three problem cases:
@@ -51,17 +47,22 @@ parser.add_argument('-schurpre', metavar='X', default='selfp',
 parser.add_argument('-showinfo', action='store_true', default=False,
                     help='print function space sizes and solution norms')
 parser.add_argument('-stokeshelp', action='store_true', default=False,
-                    help='help for stokes.py options')
+                    help='print help for stokes.py options and exit')
 parser.add_argument('-udegree', type=int, default=2, metavar='K',
                     help='polynomial degree for velocity (default=2)')
 parser.add_argument('-vectorlap', action='store_true', default=False,
                     help='use vector laplacian residual formula')
-args, unknown = parser.parse_known_args()
+args, passthroughoptions = parser.parse_known_args()
 assert not (args.analytical and args.nobase), 'conflict in problem choice options'
-
-# -stokeshelp is for help with stokes.py
-if args.stokeshelp:
+if args.stokeshelp:  # -stokeshelp is for help with stokes.py
     parser.print_help()
+    import sys
+    sys.exit(0)
+
+import petsc4py
+petsc4py.init(passthroughoptions)
+from firedrake import *
+from firedrake.petsc import PETSc
 
 # read Gmsh mesh or create uniform mesh
 if len(args.mesh) > 0:
@@ -100,8 +101,11 @@ mesh.topology_dm.viewFromOptions('-dm_view')
 # define mixed finite elements; for family names see
 #   https://www.firedrakeproject.org/variational-problems.html#supported-finite-elements
 V = VectorFunctionSpace(mesh, 'CG', degree=args.udegree)  # CG = Lagrange
-if args.dp:
-    W = FunctionSpace(mesh, 'DG', degree=args.pdegree)  # DG = Discontinuous Lagrange
+if args.dp: # discontinuous Galerkin
+    if args.quad:
+        W = FunctionSpace(mesh, 'DQ', degree=args.pdegree)
+    else:
+        W = FunctionSpace(mesh, 'DG', degree=args.pdegree)
 else:
     W = FunctionSpace(mesh, 'CG', degree=args.pdegree)
 Z = V * W
@@ -129,7 +133,7 @@ else:
 if args.nobase:
     ns = None
 else:
-    ns = MixedVectorSpaceBasis(Z, [Z.sub(0), VectorSpaceBasis(constant=True)])
+    ns = MixedVectorSpaceBasis(Z, [Z.sub(0), VectorSpaceBasis(constant=True, comm=COMM_WORLD)])
 
 # define weak form
 up = Function(Z)
@@ -240,7 +244,8 @@ PETSc.Sys.Print('solving%s with %s x %s %s elements ...' \
 # actually solve
 solve(F == 0, up, bcs=bcs, nullspace=ns, options_prefix='s',
       solver_parameters=sparams)
-u,p = up.split()
+u = up.subfunctions[0]
+p = up.subfunctions[1]
 
 # numerical error for -analytical case ONLY
 if args.analytical:
@@ -274,4 +279,3 @@ if len(args.o) > 0:
     u.rename('velocity')
     p.rename('pressure')
     File(args.o).write(u,p)
-
