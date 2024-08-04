@@ -1,2 +1,2 @@
 #!/bin/bash
-  ./fish -fsh_dim 3 -da_grid_x 128 -da_grid_y 128 -da_grid_z 128 -fsh_problem manupoly -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -pc_type none -ksp_max_it 10 -mat_type aij -ksp_monitor -ksp_type cg -ksp_view -log_view
+  ./fish -fsh_dim 3 -da_grid_x 320 -da_grid_y 320 -da_grid_z 320 -fsh_problem manupoly -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 10 -mat_type aijcusparse -ksp_monitor -ksp_type cg -ksp_view -log_view -pc_type ilu -pc_factor_levels 0 -dm_vec_type cuda -pc_factor_mat_solver_type cusparse -use_gpu_aware_mpi 0 -log_view_gpu_time
