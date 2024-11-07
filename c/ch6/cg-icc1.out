@@ -1,0 +1,262 @@
+    0 KSP Residual norm 2.277660353854e+02
+    0 KSP preconditioned resid norm 2.277660353854e+02 true resid norm 5.399494160066e+00 ||r(i)||/||b|| 1.000000000000e+00
+    1 KSP Residual norm 8.357316718049e+01
+    1 KSP preconditioned resid norm 8.357316718049e+01 true resid norm 1.299075012288e+00 ||r(i)||/||b|| 2.405919839483e-01
+    2 KSP Residual norm 4.702955700084e+01
+    2 KSP preconditioned resid norm 4.702955700084e+01 true resid norm 7.173064591752e-01 ||r(i)||/||b|| 1.328469737925e-01
+    3 KSP Residual norm 3.192192720818e+01
+    3 KSP preconditioned resid norm 3.192192720818e+01 true resid norm 4.902147010812e-01 ||r(i)||/||b|| 9.078900477507e-02
+    4 KSP Residual norm 2.357950683954e+01
+    4 KSP preconditioned resid norm 2.357950683954e+01 true resid norm 3.714118363472e-01 ||r(i)||/||b|| 6.878641319665e-02
+    5 KSP Residual norm 1.827766706174e+01
+    5 KSP preconditioned resid norm 1.827766706174e+01 true resid norm 2.969249125893e-01 ||r(i)||/||b|| 5.499124617734e-02
+    6 KSP Residual norm 1.462429809650e+01
+    6 KSP preconditioned resid norm 1.462429809650e+01 true resid norm 2.425647547184e-01 ||r(i)||/||b|| 4.492360719869e-02
+    7 KSP Residual norm 1.196347734707e+01
+    7 KSP preconditioned resid norm 1.196347734707e+01 true resid norm 1.993211801522e-01 ||r(i)||/||b|| 3.691478761591e-02
+    8 KSP Residual norm 9.937427018047e+00
+    8 KSP preconditioned resid norm 9.937427018047e+00 true resid norm 1.646628201508e-01 ||r(i)||/||b|| 3.049597152426e-02
+    9 KSP Residual norm 8.344682098805e+00
+    9 KSP preconditioned resid norm 8.344682098805e+00 true resid norm 1.375122154115e-01 ||r(i)||/||b|| 2.546761073074e-02
+   10 KSP Residual norm 7.094052641548e+00
+   10 KSP preconditioned resid norm 7.094052641548e+00 true resid norm 1.166032344857e-01 ||r(i)||/||b|| 2.159521448289e-02
+   11 KSP Residual norm 6.169899466222e+00
+   11 KSP preconditioned resid norm 6.169899466222e+00 true resid norm 1.013569356394e-01 ||r(i)||/||b|| 1.877156130458e-02
+   12 KSP Residual norm 5.446369263209e+00
+   12 KSP preconditioned resid norm 5.446369263209e+00 true resid norm 9.071799229312e-02 ||r(i)||/||b|| 1.680120203927e-02
+   13 KSP Residual norm 4.477578929789e+00
+   13 KSP preconditioned resid norm 4.477578929789e+00 true resid norm 7.642387827425e-02 ||r(i)||/||b|| 1.415389590371e-02
+   14 KSP Residual norm 3.328378520218e+00
+   14 KSP preconditioned resid norm 3.328378520218e+00 true resid norm 5.526695738622e-02 ||r(i)||/||b|| 1.023558054659e-02
+   15 KSP Residual norm 2.645029907164e+00
+   15 KSP preconditioned resid norm 2.645029907164e+00 true resid norm 4.384724029602e-02 ||r(i)||/||b|| 8.120620005538e-03
+   16 KSP Residual norm 2.159920785501e+00
+   16 KSP preconditioned resid norm 2.159920785501e+00 true resid norm 3.757210734835e-02 ||r(i)||/||b|| 6.958449483328e-03
+   17 KSP Residual norm 1.708083255679e+00
+   17 KSP preconditioned resid norm 1.708083255679e+00 true resid norm 2.854842427440e-02 ||r(i)||/||b|| 5.287240513294e-03
+   18 KSP Residual norm 1.390780304474e+00
+   18 KSP preconditioned resid norm 1.390780304474e+00 true resid norm 2.400720012785e-02 ||r(i)||/||b|| 4.446194294533e-03
+   19 KSP Residual norm 1.124623000474e+00
+   19 KSP preconditioned resid norm 1.124623000474e+00 true resid norm 1.898810094525e-02 ||r(i)||/||b|| 3.516644408226e-03
+   20 KSP Residual norm 8.995069208943e-01
+   20 KSP preconditioned resid norm 8.995069208943e-01 true resid norm 1.531412821616e-02 ||r(i)||/||b|| 2.836215349472e-03
+   21 KSP Residual norm 7.086766244551e-01
+   21 KSP preconditioned resid norm 7.086766244551e-01 true resid norm 1.221245986467e-02 ||r(i)||/||b|| 2.261778511585e-03
+   22 KSP Residual norm 5.359734867387e-01
+   22 KSP preconditioned resid norm 5.359734867387e-01 true resid norm 9.214438660927e-03 ||r(i)||/||b|| 1.706537388090e-03
+   23 KSP Residual norm 3.729640540566e-01
+   23 KSP preconditioned resid norm 3.729640540566e-01 true resid norm 6.714933614567e-03 ||r(i)||/||b|| 1.243622720111e-03
+   24 KSP Residual norm 2.317547188455e-01
+   24 KSP preconditioned resid norm 2.317547188455e-01 true resid norm 4.187103251890e-03 ||r(i)||/||b|| 7.754621317785e-04
+   25 KSP Residual norm 1.360650740161e-01
+   25 KSP preconditioned resid norm 1.360650740161e-01 true resid norm 2.362157252596e-03 ||r(i)||/||b|| 4.374775085538e-04
+   26 KSP Residual norm 9.386420365452e-02
+   26 KSP preconditioned resid norm 9.386420365452e-02 true resid norm 1.614070931973e-03 ||r(i)||/||b|| 2.989300264291e-04
+   27 KSP Residual norm 7.183411888521e-02
+   27 KSP preconditioned resid norm 7.183411888521e-02 true resid norm 1.265077647124e-03 ||r(i)||/||b|| 2.342955857754e-04
+   28 KSP Residual norm 4.972070772711e-02
+   28 KSP preconditioned resid norm 4.972070772711e-02 true resid norm 8.836887548575e-04 ||r(i)||/||b|| 1.636613965421e-04
+   29 KSP Residual norm 3.295645068800e-02
+   29 KSP preconditioned resid norm 3.295645068800e-02 true resid norm 5.884472317654e-04 ||r(i)||/||b|| 1.089819183651e-04
+   30 KSP Residual norm 2.122954598280e-02
+   30 KSP preconditioned resid norm 2.122954598280e-02 true resid norm 3.725049788875e-04 ||r(i)||/||b|| 6.898886596497e-05
+   31 KSP Residual norm 1.437682112097e-02
+   31 KSP preconditioned resid norm 1.437682112097e-02 true resid norm 2.526187399052e-04 ||r(i)||/||b|| 4.678563073066e-05
+   32 KSP Residual norm 9.882485132204e-03
+   32 KSP preconditioned resid norm 9.882485132204e-03 true resid norm 1.738461616858e-04 ||r(i)||/||b|| 3.219674964584e-05
+   33 KSP Residual norm 7.331719714346e-03
+   33 KSP preconditioned resid norm 7.331719714346e-03 true resid norm 1.288125299225e-04 ||r(i)||/||b|| 2.385640693441e-05
+   34 KSP Residual norm 5.507443849151e-03
+   34 KSP preconditioned resid norm 5.507443849151e-03 true resid norm 9.742360968435e-05 ||r(i)||/||b|| 1.804309937121e-05
+   35 KSP Residual norm 3.940417046886e-03
+   35 KSP preconditioned resid norm 3.940417046886e-03 true resid norm 7.112806619544e-05 ||r(i)||/||b|| 1.317309808787e-05
+   36 KSP Residual norm 2.612621924833e-03
+   36 KSP preconditioned resid norm 2.612621924833e-03 true resid norm 4.622876117506e-05 ||r(i)||/||b|| 8.561683706773e-06
+   37 KSP Residual norm 1.605683253469e-03
+   37 KSP preconditioned resid norm 1.605683253469e-03 true resid norm 2.950405934974e-05 ||r(i)||/||b|| 5.464226550692e-06
+    Linear solve converged due to CONVERGED_RTOL iterations 37
+KSP Object: 1 MPI process
+  type: cg
+  maximum iterations=2000, initial guess is zero
+  tolerances: relative=1e-05, absolute=1e-50, divergence=10000.
+  left preconditioning
+  using PRECONDITIONED norm type for convergence test
+PC Object: 1 MPI process
+  type: icc
+    out-of-place factorization
+    1 level of fill
+    tolerance for zero pivot 2.22045e-14
+    using Manteuffel shift [POSITIVE_DEFINITE]
+    matrix ordering: natural
+    factor fill ratio given 1., needed 1.73559
+      Factored matrix follows:
+        Mat Object: 1 MPI process
+          type: seqsbaij
+          rows=274625, cols=274625
+          package used to perform factorization: petsc
+          total: nonzeros=1884545, allocated nonzeros=1884545
+              block size is 1
+  linear system matrix = precond matrix:
+  Mat Object: 1 MPI process
+    type: seqaij
+    rows=274625, cols=274625
+    total: nonzeros=1897025, allocated nonzeros=1897025
+    total number of mallocs used during MatSetValues calls=0
+      not using I-node routines
+problem manuexp on 65 x 65 x 65 point 3D grid:
+  error |u-uexact|_inf = 9.260e-05, |u-uexact|_h = 2.599e-05
+****************************************************************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: ------------------------------------------------------------------
+
+./fish on a arch-cuda-opt named localhost.localdomain with 1 process, by luohao on Wed Nov  6 18:26:09 2024
+Using Petsc Release Version 3.22.1, Oct 28, 2024 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           1.753e+00     1.000   1.753e+00
+Objects:              0.000e+00     0.000   0.000e+00
+Flops:                5.356e+08     1.000   5.356e+08  5.356e+08
+Flops/sec:            3.056e+08     1.000   3.056e+08  3.056e+08
+MPI Msg Count:        0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Msg Len (bytes):  0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Reductions:       0.000e+00     0.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 1.7527e+00 100.0%  5.3558e+08 100.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+   GPU Mflop/s: 10e-6 * (sum of flop on GPU over all processors)/(max GPU time over all processors)
+   CpuToGpu Count: total number of CPU to GPU copies per processor
+   CpuToGpu Size (Mbytes): 10e-6 * (total size of CPU to GPU copies per processor)
+   GpuToCpu Count: total number of GPU to CPU copies per processor
+   GpuToCpu Size (Mbytes): 10e-6 * (total size of GPU to CPU copies per processor)
+   GPU %F: percent flops on GPU in this event
+------------------------------------------------------------------------------------------------------------------------
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total   GPU    - CpuToGpu -   - GpuToCpu - GPU
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s Mflop/s Count   Size   Count   Size  %F
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+BuildTwoSided          2 1.0 2.2728e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCreateMat            1 1.0 7.4315e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  4  0  0  0  0   4  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFSetGraph             2 1.0 1.1659e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFSetUp                2 1.0 8.7262e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFPack                 3 1.0 7.4900e-07 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFUnpack               3 1.0 1.2590e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecTDot               76 1.0 1.5012e-02 1.0 4.17e+07 1.0 0.0e+00 0.0e+00 0.0e+00  1  8  0  0  0   1  8  0  0  0  2781       0      0 0.00e+00    0 0.00e+00  0
+VecNorm               79 1.0 1.7312e-02 1.0 4.28e+07 1.0 0.0e+00 0.0e+00 0.0e+00  1  8  0  0  0   1  8  0  0  0  2475       0      0 0.00e+00    0 0.00e+00  0
+VecCopy               40 1.0 1.4446e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecSet                 1 1.0 2.6334e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecAXPY               76 1.0 1.5965e-02 1.0 4.17e+07 1.0 0.0e+00 0.0e+00 0.0e+00  1  8  0  0  0   1  8  0  0  0  2615       0      0 0.00e+00    0 0.00e+00  0
+VecAYPX               36 1.0 1.5244e-02 1.0 1.98e+07 1.0 0.0e+00 0.0e+00 0.0e+00  1  4  0  0  0   1  4  0  0  0  1297       0      0 0.00e+00    0 0.00e+00  0
+VecScatterBegin        3 1.0 1.7546e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecScatterEnd          3 1.0 1.5200e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatMult               37 1.0 1.0394e-01 1.0 1.30e+08 1.0 0.0e+00 0.0e+00 0.0e+00  6 24  0  0  0   6 24  0  0  0  1253       0      0 0.00e+00    0 0.00e+00  0
+MatSolve              38 1.0 2.2922e-01 1.0 2.55e+08 1.0 0.0e+00 0.0e+00 0.0e+00 13 48  0  0  0  13 48  0  0  0  1113       0      0 0.00e+00    0 0.00e+00  0
+MatCholFctrNum         1 1.0 2.3373e-02 1.0 2.75e+05 1.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0    12       0      0 0.00e+00    0 0.00e+00  0
+MatICCFactorSym        1 1.0 3.6045e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   2  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatAssemblyBegin       2 1.0 9.6300e-07 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatAssemblyEnd         2 1.0 4.8147e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatGetRowIJ            1 1.0 1.8440e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatGetOrdering         1 1.0 1.6184e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatView                2 1.0 9.1362e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+KSPSetUp               1 1.0 2.1564e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+KSPSolve               1 1.0 4.3179e-01 1.0 5.30e+08 1.0 0.0e+00 0.0e+00 0.0e+00 25 99  0  0  0  25 99  0  0  0  1227       0      0 0.00e+00    0 0.00e+00  0
+SNESSolve              1 1.0 5.4191e-01 1.0 5.34e+08 1.0 0.0e+00 0.0e+00 0.0e+00 31 100  0  0  0  31 100  0  0  0   986       0      0 0.00e+00    0 0.00e+00  0
+SNESSetUp              1 1.0 7.5300e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  4  0  0  0  0   4  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESFunctionEval       1 1.0 8.1735e-03 1.0 3.84e+06 1.0 0.0e+00 0.0e+00 0.0e+00  0  1  0  0  0   0  1  0  0  0   470       0      0 0.00e+00    0 0.00e+00  0
+SNESJacobianEval       1 1.0 3.8060e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   2  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+PCSetUp                1 1.0 6.1167e-02 1.0 2.75e+05 1.0 0.0e+00 0.0e+00 0.0e+00  3  0  0  0  0   3  0  0  0  0     4       0      0 0.00e+00    0 0.00e+00  0
+PCApply               38 1.0 2.2929e-01 1.0 2.55e+08 1.0 0.0e+00 0.0e+00 0.0e+00 13 48  0  0  0  13 48  0  0  0  1113       0      0 0.00e+00    0 0.00e+00  0
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Object Type          Creations   Destructions. Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+           Container     3              3
+    Distributed Mesh     2              2
+           Index Set     9              9
+   IS L to G Mapping     2              2
+   Star Forest Graph     6              6
+     Discrete System     2              2
+           Weak Form     2              2
+              Vector    93             93
+                SNES     1              1
+              DMSNES     1              1
+       Krylov Solver     1              1
+     DMKSP interface     1              1
+              Matrix     3              3
+      Preconditioner     1              1
+              Viewer     1              1
+========================================================================================================================
+Average time to get PetscTime(): 2.56e-08
+#PETSc Option Table entries:
+-da_refine 5 # (source: command line)
+-fsh_cx 1 # (source: command line)
+-fsh_cy 1 # (source: command line)
+-fsh_cz 1 # (source: command line)
+-fsh_dim 3 # (source: command line)
+-fsh_problem manuexp # (source: command line)
+-initial_gonboundary 1 # (source: command line)
+-ksp_converged_reason # (source: command line)
+-ksp_max_it 2000 # (source: command line)
+-ksp_monitor # (source: command line)
+-ksp_monitor_true_residual # (source: command line)
+-ksp_rtol 1e-5 # (source: command line)
+-ksp_type cg # (source: command line)
+-ksp_view # (source: command line)
+-log_view # (source: command line)
+-mat_type aij # (source: command line)
+-pc_factor_levels 1 # (source: command line)
+-pc_type icc # (source: command line)
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --with-debugging=no --with-cuda=1
+-----------------------------------------
+Libraries compiled on 2024-11-02 16:49:32 on localhost.localdomain 
+Machine characteristics: Linux-3.10.0-1160.95.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core
+Using PETSc directory: /share/userfile/luohao/petsc-3.22.1
+Using PETSc arch: arch-cuda-opt
+-----------------------------------------
+
+Using C compiler: mpicc  -fPIC -Wall -Wwrite-strings -Wno-unknown-pragmas -Wno-lto-type-mismatch -Wno-stringop-overflow -fstack-protector -fvisibility=hidden -Wall -Wwrite-strings -Wno-unknown-pragmas -Wno-lto-type-mismatch -Wno-stringop-overflow -fstack-protector -fvisibility=hidden -g -O  
+Using Fortran compiler: mpif90  -fPIC -Wall -ffree-line-length-none -ffree-line-length-0 -Wno-lto-type-mismatch -Wno-unused-dummy-argument -Wall -ffree-line-length-none -ffree-line-length-0 -Wno-lto-type-mismatch -Wno-unused-dummy-argument -g -O    
+-----------------------------------------
+
+Using include paths: -I/share/userfile/luohao/petsc-3.22.1/include -I/share/userfile/luohao/petsc-3.22.1/arch-cuda-opt/include -I/share/software/cuda-12.4/include
+-----------------------------------------
+
+Using C linker: mpicc
+Using Fortran linker: mpif90
+Using libraries: -Wl,-rpath,/share/userfile/luohao/petsc-3.22.1/arch-cuda-opt/lib -L/share/userfile/luohao/petsc-3.22.1/arch-cuda-opt/lib -lpetsc -Wl,-rpath,/share/software/intel/mkl/lib/intel64 -L/share/software/intel/mkl/lib/intel64 -Wl,-rpath,/share/software/cuda-12.4/lib64 -L/share/software/cuda-12.4/lib64 -L/share/software/cuda-12.4/lib64/stubs -Wl,-rpath,/share/software/mpich-4.0.3/lib -L/share/software/mpich-4.0.3/lib -Wl,-rpath,/share/software/gcc-13.2.0/lib64 -L/share/software/gcc-13.2.0/lib64 -Wl,-rpath,/home/luohao/.local/lib64 -L/home/luohao/.local/lib64 -Wl,-rpath,/share/software/gcc-13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0 -L/share/software/gcc-13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0 -Wl,-rpath,/share/software/gcc-13.2.0/lib -L/share/software/gcc-13.2.0/lib -Wl,-rpath,/share/software/gdb/gdb-11.1/lib -L/share/software/gdb/gdb-11.1/lib -Wl,-rpath,/share/software/binutils/binutils-2.37/lib -L/share/software/binutils/binutils-2.37/lib -Wl,-rpath,/home/luohao/.local/lib -L/home/luohao/.local/lib -Wl,-rpath,/share/userfile/luohao/petsc-3.22.1 -L/share/userfile/luohao/petsc-3.22.1 -lmkl_intel_lp64 -lmkl_core -lmkl_sequential -lpthread -lm -lcudart -lnvToolsExt -lcufft -lcublas -lcusparse -lcusolver -lcurand -lcuda -lX11 -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -lquadmath -ldl
+-----------------------------------------
+
+WARNING! There are options you set that were not used!
+WARNING! could be spelling mistake, etc!
+There is one unused database option. It is:
+Option left: name:-initial_gonboundary value: 1 source: command line

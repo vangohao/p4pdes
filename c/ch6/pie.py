@@ -3,19 +3,18 @@ import numpy as np
 from matplotlib import gridspec
 
 LOG_SCALE = True
-
-fig = plt.figure(figsize=(7,3))
+fig = plt.figure(figsize=(9,3))
 
 spec = gridspec.GridSpec(ncols=2, nrows=1,
-                         width_ratios=[3.2, 2.2])
+                         width_ratios=[3.5, 2.3], wspace=0)
 ax1 = fig.add_subplot(spec[0])
 ax = fig.add_subplot(spec[1])
 
-algs = ["jacobi", "gs", "gmres", "ilu", "ilu1"]
+algs = ["jacobi", "gs", "cg", "cg-icc0", "cg-icc1"]
 
 linestyles = [(0, (3, 1, 1, 1)), "--", "-.", ":", "-"]
 
-labels = ["Jacobi", "Gauss-Seidel", "GMRES", "GMRES-ILU(0)", "GMRES-ILU(1)"]
+labels = ["Jacobi", "Gauss-Seidel", "CG", "CG-IC(0)", "CG-IC(1)"]
 colors = ['#C05046', '#FFC000', '#4BACC6', '#50632A', '#5442CE']
 
 cnt = 0
@@ -39,17 +38,19 @@ for alg in algs:
 if LOG_SCALE:
     ax1.set_yscale("log")
     ax1.legend()
-    ax1.set_ylim(1e-3, 1e0 +0.5)
+    ax1.set_ylim(1e-5, 1e0 +0.5)
+    ax1.set_xlim(0, 300)
+    ax1.legend(loc="lower right")
 else:
     ax1.legend(loc="lower right")
     ax1.set_ylim(0,1)
-ax1.set_xlim(0, 2000)
+    ax1.set_xlim(0, 100)
 ax1.set_ylabel("Relative Residual Norm")
 ax1.set_xlabel("Number of Iterations")
 ax1.set_title("Convergence Comparison")
 
 
-algs = ["ilu0-gpu", "ilu1-gpu"]
+algs = ["cg-icc0-gpu", "cg-icc1-gpu"]
 
 # plt.figure(figsize=(5,2.5))
 
@@ -61,7 +62,7 @@ vec_ops = ["VecMDot", "VecNorm", "VecScale", "VecMAXPY", "VecNormalize", "VecTDo
 spmv = ["MatMult"]
 spsv = ["MatSolve"]
 
-names = ["BLAS1", "SpMV", "SpTRSV"]
+names = ["SpTRSV","VectorOP", "SpMV"]
 cnt = 0
 
 rings = []
@@ -70,8 +71,8 @@ rings = []
 size = 0.33
 
 cmap = plt.get_cmap("tab20")
-outer_colors = ['#C05046',  '#FFC000','#4BACC6']
-inner_colors = ['#C05046', '#FFC000','#4BACC6']
+outer_colors = ['#4BACC6', '#C05046', '#FFC000']
+inner_colors = ['#4BACC6', '#C05046', '#FFC000']
 
 for alg in algs:
     time_vec = 0
@@ -100,28 +101,28 @@ for alg in algs:
                     break
         time_total = time_vec + time_spmv + time_spsv
         print(alg, time_vec / time_total, time_spmv / time_total, time_spsv / time_total)
-        rings.append([time_vec / time_total, time_spmv / time_total, time_spsv / time_total]) 
+        rings.append([time_spsv / time_total, time_vec / time_total, time_spmv / time_total]) 
             #   (time_total - time_vec - time_spmv - time_spsv) / time_total)
 
 def my_autopct(pct):
 	return ('%3.1f%%' % pct) if pct > 3 else ''
 
-tmp=ax.pie(rings[0], autopct=my_autopct,radius=1, startangle=0, colors=outer_colors, pctdistance=0.8, labeldistance=1.6,     
-           wedgeprops=dict(width=size, edgecolor='w'), textprops=dict(size=8,color='w'), center=(0,1))
+tmp=ax.pie(rings[0], autopct=my_autopct,radius=1, startangle=35, colors=outer_colors, pctdistance=0.8, labeldistance=1.6,     
+           wedgeprops=dict(width=size, edgecolor='w'), textprops=dict(size=7,color='w'), center=(0,1))
 
-tmp1 = ax.pie(rings[1], autopct=my_autopct,radius=1-size, startangle=0,colors=inner_colors,pctdistance=0.75, labeldistance=0.65,
-       wedgeprops=dict(width=size, edgecolor='w', alpha=0.43), textprops=dict(size=8), center=(0,1), )
+tmp1 = ax.pie(rings[1], autopct=my_autopct,radius=1-size, startangle=35,colors=inner_colors,pctdistance=0.75, labeldistance=0.65,
+       wedgeprops=dict(width=size, edgecolor='w', alpha=0.43), textprops=dict(size=7), center=(0,1), )
 
-legend2 = ax.legend(tmp[0], names,loc=(0.5, 0.1), title="GMRES-ILU(0)")
+legend2 = ax.legend(tmp[0], names,loc=(0.5, 0.1), title="CG-IC(0)")
 
-legend1 = ax.legend(tmp[0], names,loc=(-0.2, -0.2), fontsize=9, title="GMRES-ILU(0)")
-ax.legend(tmp1[0], names,loc=(0.5, -0.2), fontsize=9, title="GMRES-ILU(1)")
+legend1 = ax.legend(tmp[0], names, loc=(-0.2, -0.1), fontsize=9, ncols=3, handletextpad=0.5, columnspacing=0.6, handlelength=1.3)
+# ax.legend(tmp1[0], names,loc=(0.5, -0.2), fontsize=9, title="GMRES-ILU(1)")
 ax.add_artist(legend1)
-# ax.text(-0.3-0.5,0.8,"Optimized", fontsize=14, color='white')
-# ax.text(-0.3-0.5,0.46,"Reference", fontsize=14, color='black')
+ax.text(-0.26,1.77,"CG-IC(0)", fontsize=9, color='white')
+ax.text(-0.26,1.43,"CG-IC(1)", fontsize=9, color='black')
 
 ax.set_xlim(-0.8,0.8)
-ax.set_ylim(-0.4,2.0)
+ax.set_ylim(-0.15,2.05)
 ax.set_title("Time Breakdown (GPU)")
 
 

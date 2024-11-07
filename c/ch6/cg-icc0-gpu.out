@@ -1,0 +1,617 @@
+    0 KSP Residual norm 1.622110119860e+02
+    0 KSP preconditioned resid norm 1.622110119860e+02 true resid norm 5.399494160066e+00 ||r(i)||/||b|| 1.000000000000e+00
+    1 KSP Residual norm 6.456874608537e+01
+    1 KSP preconditioned resid norm 6.456874608537e+01 true resid norm 1.891136300671e+00 ||r(i)||/||b|| 3.502432347565e-01
+    2 KSP Residual norm 3.864234477080e+01
+    2 KSP preconditioned resid norm 3.864234477080e+01 true resid norm 1.134329770040e+00 ||r(i)||/||b|| 2.100807476428e-01
+    3 KSP Residual norm 2.722742908419e+01
+    3 KSP preconditioned resid norm 2.722742908419e+01 true resid norm 8.006601588925e-01 ||r(i)||/||b|| 1.482842901867e-01
+    4 KSP Residual norm 2.076008930094e+01
+    4 KSP preconditioned resid norm 2.076008930094e+01 true resid norm 6.123675749639e-01 ||r(i)||/||b|| 1.134120265363e-01
+    5 KSP Residual norm 1.657427455926e+01
+    5 KSP preconditioned resid norm 1.657427455926e+01 true resid norm 4.914831572121e-01 ||r(i)||/||b|| 9.102392606460e-02
+    6 KSP Residual norm 1.363491351931e+01
+    6 KSP preconditioned resid norm 1.363491351931e+01 true resid norm 4.069960576224e-01 ||r(i)||/||b|| 7.537670114221e-02
+    7 KSP Residual norm 1.145527315637e+01
+    7 KSP preconditioned resid norm 1.145527315637e+01 true resid norm 3.440516346496e-01 ||r(i)||/||b|| 6.371923451537e-02
+    8 KSP Residual norm 9.775163715357e+00
+    8 KSP preconditioned resid norm 9.775163715357e+00 true resid norm 2.949384089729e-01 ||r(i)||/||b|| 5.462334067407e-02
+    9 KSP Residual norm 8.441135946509e+00
+    9 KSP preconditioned resid norm 8.441135946509e+00 true resid norm 2.555281023590e-01 ||r(i)||/||b|| 4.732445202902e-02
+   10 KSP Residual norm 7.356615866620e+00
+   10 KSP preconditioned resid norm 7.356615866620e+00 true resid norm 2.233708079498e-01 ||r(i)||/||b|| 4.136883962239e-02
+   11 KSP Residual norm 6.458157089960e+00
+   11 KSP preconditioned resid norm 6.458157089960e+00 true resid norm 1.967423787484e-01 ||r(i)||/||b|| 3.643718706162e-02
+   12 KSP Residual norm 5.702348712780e+00
+   12 KSP preconditioned resid norm 5.702348712780e+00 true resid norm 1.743943653385e-01 ||r(i)||/||b|| 3.229827835138e-02
+   13 KSP Residual norm 5.058088399494e+00
+   13 KSP preconditioned resid norm 5.058088399494e+00 true resid norm 1.555307806225e-01 ||r(i)||/||b|| 2.880469466433e-02
+   14 KSP Residual norm 4.503816832385e+00
+   14 KSP preconditioned resid norm 4.503816832385e+00 true resid norm 1.395801313169e-01 ||r(i)||/||b|| 2.585059399623e-02
+   15 KSP Residual norm 4.031213185737e+00
+   15 KSP preconditioned resid norm 4.031213185737e+00 true resid norm 1.259865704657e-01 ||r(i)||/||b|| 2.333303208242e-02
+   16 KSP Residual norm 3.654788532546e+00
+   16 KSP preconditioned resid norm 3.654788532546e+00 true resid norm 1.147083327558e-01 ||r(i)||/||b|| 2.124427388109e-02
+   17 KSP Residual norm 3.399240907728e+00
+   17 KSP preconditioned resid norm 3.399240907728e+00 true resid norm 1.068256915912e-01 ||r(i)||/||b|| 1.978438876391e-02
+   18 KSP Residual norm 3.194423714212e+00
+   18 KSP preconditioned resid norm 3.194423714212e+00 true resid norm 1.015117061701e-01 ||r(i)||/||b|| 1.880022519904e-02
+   19 KSP Residual norm 2.788410101499e+00
+   19 KSP preconditioned resid norm 2.788410101499e+00 true resid norm 9.003894479278e-02 ||r(i)||/||b|| 1.667544072160e-02
+   20 KSP Residual norm 2.206651064896e+00
+   20 KSP preconditioned resid norm 2.206651064896e+00 true resid norm 6.991589441500e-02 ||r(i)||/||b|| 1.294860080266e-02
+   21 KSP Residual norm 1.864929540241e+00
+   21 KSP preconditioned resid norm 1.864929540241e+00 true resid norm 5.852079638570e-02 ||r(i)||/||b|| 1.083819977407e-02
+   22 KSP Residual norm 1.672011341260e+00
+   22 KSP preconditioned resid norm 1.672011341260e+00 true resid norm 5.516583068438e-02 ||r(i)||/||b|| 1.021685162517e-02
+   23 KSP Residual norm 1.390703119275e+00
+   23 KSP preconditioned resid norm 1.390703119275e+00 true resid norm 4.446464971797e-02 ||r(i)||/||b|| 8.234965794912e-03
+   24 KSP Residual norm 1.215544149389e+00
+   24 KSP preconditioned resid norm 1.215544149389e+00 true resid norm 3.987508820145e-02 ||r(i)||/||b|| 7.384967372751e-03
+   25 KSP Residual norm 1.041706268849e+00
+   25 KSP preconditioned resid norm 1.041706268849e+00 true resid norm 3.447616085290e-02 ||r(i)||/||b|| 6.385072347679e-03
+   26 KSP Residual norm 9.039038235607e-01
+   26 KSP preconditioned resid norm 9.039038235607e-01 true resid norm 2.957923929371e-02 ||r(i)||/||b|| 5.478150066811e-03
+   27 KSP Residual norm 7.864930143360e-01
+   27 KSP preconditioned resid norm 7.864930143360e-01 true resid norm 2.614437181992e-02 ||r(i)||/||b|| 4.842003907196e-03
+   28 KSP Residual norm 6.847992812134e-01
+   28 KSP preconditioned resid norm 6.847992812134e-01 true resid norm 2.242871077047e-02 ||r(i)||/||b|| 4.153854065877e-03
+   29 KSP Residual norm 5.904777882321e-01
+   29 KSP preconditioned resid norm 5.904777882321e-01 true resid norm 1.954434338988e-02 ||r(i)||/||b|| 3.619661918412e-03
+   30 KSP Residual norm 5.107025675395e-01
+   30 KSP preconditioned resid norm 5.107025675395e-01 true resid norm 1.709146785692e-02 ||r(i)||/||b|| 3.165383154467e-03
+   31 KSP Residual norm 4.348982505341e-01
+   31 KSP preconditioned resid norm 4.348982505341e-01 true resid norm 1.434326556315e-02 ||r(i)||/||b|| 2.656409126105e-03
+   32 KSP Residual norm 3.699204885769e-01
+   32 KSP preconditioned resid norm 3.699204885769e-01 true resid norm 1.263809516838e-02 ||r(i)||/||b|| 2.340607248333e-03
+   33 KSP Residual norm 3.068770555936e-01
+   33 KSP preconditioned resid norm 3.068770555936e-01 true resid norm 1.018548450493e-02 ||r(i)||/||b|| 1.886377538893e-03
+   34 KSP Residual norm 2.432206740739e-01
+   34 KSP preconditioned resid norm 2.432206740739e-01 true resid norm 8.365388446665e-03 ||r(i)||/||b|| 1.549291137035e-03
+   35 KSP Residual norm 1.807313667187e-01
+   35 KSP preconditioned resid norm 1.807313667187e-01 true resid norm 6.275253452443e-03 ||r(i)||/||b|| 1.162192839999e-03
+   36 KSP Residual norm 1.229940171768e-01
+   36 KSP preconditioned resid norm 1.229940171768e-01 true resid norm 4.196996118500e-03 ||r(i)||/||b|| 7.772943157418e-04
+   37 KSP Residual norm 8.324335334631e-02
+   37 KSP preconditioned resid norm 8.324335334631e-02 true resid norm 2.839195407106e-03 ||r(i)||/||b|| 5.258261835162e-04
+   38 KSP Residual norm 6.411900951165e-02
+   38 KSP preconditioned resid norm 6.411900951165e-02 true resid norm 2.120542277594e-03 ||r(i)||/||b|| 3.927298029650e-04
+   39 KSP Residual norm 5.591187085011e-02
+   39 KSP preconditioned resid norm 5.591187085011e-02 true resid norm 1.894339959832e-03 ||r(i)||/||b|| 3.508365605508e-04
+   40 KSP Residual norm 4.577446163088e-02
+   40 KSP preconditioned resid norm 4.577446163088e-02 true resid norm 1.629769927174e-03 ||r(i)||/||b|| 3.018375201196e-04
+   41 KSP Residual norm 3.404284293987e-02
+   41 KSP preconditioned resid norm 3.404284293987e-02 true resid norm 1.167018770880e-03 ||r(i)||/||b|| 2.161348334277e-04
+   42 KSP Residual norm 2.721814809973e-02
+   42 KSP preconditioned resid norm 2.721814809973e-02 true resid norm 9.234818529374e-04 ||r(i)||/||b|| 1.710311791366e-04
+   43 KSP Residual norm 2.107402858141e-02
+   43 KSP preconditioned resid norm 2.107402858141e-02 true resid norm 7.535070073888e-04 ||r(i)||/||b|| 1.395514070488e-04
+   44 KSP Residual norm 1.485682640043e-02
+   44 KSP preconditioned resid norm 1.485682640043e-02 true resid norm 5.095998825402e-04 ||r(i)||/||b|| 9.437918950059e-05
+   45 KSP Residual norm 1.167322175946e-02
+   45 KSP preconditioned resid norm 1.167322175946e-02 true resid norm 4.049954918893e-04 ||r(i)||/||b|| 7.500619129929e-05
+   46 KSP Residual norm 8.901115805706e-03
+   46 KSP preconditioned resid norm 8.901115805706e-03 true resid norm 3.167864404917e-04 ||r(i)||/||b|| 5.866965147116e-05
+   47 KSP Residual norm 6.689095837256e-03
+   47 KSP preconditioned resid norm 6.689095837256e-03 true resid norm 2.230966438441e-04 ||r(i)||/||b|| 4.131806373531e-05
+   48 KSP Residual norm 5.541359466028e-03
+   48 KSP preconditioned resid norm 5.541359466028e-03 true resid norm 1.998402900957e-04 ||r(i)||/||b|| 3.701092809279e-05
+   49 KSP Residual norm 4.450966233556e-03
+   49 KSP preconditioned resid norm 4.450966233556e-03 true resid norm 1.531839350542e-04 ||r(i)||/||b|| 2.837005291850e-05
+   50 KSP Residual norm 3.799277169487e-03
+   50 KSP preconditioned resid norm 3.799277169487e-03 true resid norm 1.346015498606e-04 ||r(i)||/||b|| 2.492854809551e-05
+   51 KSP Residual norm 3.077364819647e-03
+   51 KSP preconditioned resid norm 3.077364819647e-03 true resid norm 1.077960938190e-04 ||r(i)||/||b|| 1.996410971536e-05
+   52 KSP Residual norm 2.444429068147e-03
+   52 KSP preconditioned resid norm 2.444429068147e-03 true resid norm 8.571150029537e-05 ||r(i)||/||b|| 1.587398703554e-05
+   53 KSP Residual norm 1.816417704397e-03
+   53 KSP preconditioned resid norm 1.816417704397e-03 true resid norm 6.456139042906e-05 ||r(i)||/||b|| 1.195693309691e-05
+   54 KSP Residual norm 1.357623488649e-03
+   54 KSP preconditioned resid norm 1.357623488649e-03 true resid norm 4.778249769600e-05 ||r(i)||/||b|| 8.849439647401e-06
+   55 KSP Residual norm 9.960709354485e-04
+   55 KSP preconditioned resid norm 9.960709354485e-04 true resid norm 3.548017896363e-05 ||r(i)||/||b|| 6.571019045827e-06
+   56 KSP Residual norm 7.559120364184e-04
+   56 KSP preconditioned resid norm 7.559120364184e-04 true resid norm 2.685097682311e-05 ||r(i)||/||b|| 4.972868944224e-06
+   57 KSP Residual norm 5.511376316881e-04
+   57 KSP preconditioned resid norm 5.511376316881e-04 true resid norm 1.971401238196e-05 ||r(i)||/||b|| 3.651085045663e-06
+   58 KSP Residual norm 3.990622436341e-04
+   58 KSP preconditioned resid norm 3.990622436341e-04 true resid norm 1.443436433685e-05 ||r(i)||/||b|| 2.673280849825e-06
+   59 KSP Residual norm 2.768292934116e-04
+   59 KSP preconditioned resid norm 2.768292934116e-04 true resid norm 9.820006765383e-06 ||r(i)||/||b|| 1.818690135459e-06
+   60 KSP Residual norm 1.995533031899e-04
+   60 KSP preconditioned resid norm 1.995533031899e-04 true resid norm 7.298271617083e-06 ||r(i)||/||b|| 1.351658396273e-06
+   61 KSP Residual norm 1.420402198413e-04
+   61 KSP preconditioned resid norm 1.420402198413e-04 true resid norm 4.988886931215e-06 ||r(i)||/||b|| 9.239545007961e-07
+   62 KSP Residual norm 9.953695977206e-05
+   62 KSP preconditioned resid norm 9.953695977206e-05 true resid norm 3.683949919094e-06 ||r(i)||/||b|| 6.822768596251e-07
+   63 KSP Residual norm 6.884881865819e-05
+   63 KSP preconditioned resid norm 6.884881865819e-05 true resid norm 2.420113369451e-06 ||r(i)||/||b|| 4.482111282479e-07
+   64 KSP Residual norm 4.720496751380e-05
+   64 KSP preconditioned resid norm 4.720496751380e-05 true resid norm 1.754044511059e-06 ||r(i)||/||b|| 3.248534879492e-07
+   65 KSP Residual norm 3.233906053512e-05
+   65 KSP preconditioned resid norm 3.233906053512e-05 true resid norm 1.168133477060e-06 ||r(i)||/||b|| 2.163412798368e-07
+   66 KSP Residual norm 2.216416668042e-05
+   66 KSP preconditioned resid norm 2.216416668042e-05 true resid norm 7.832356077566e-07 ||r(i)||/||b|| 1.450572191650e-07
+   67 KSP Residual norm 1.673972696807e-05
+   67 KSP preconditioned resid norm 1.673972696807e-05 true resid norm 6.058577909420e-07 ||r(i)||/||b|| 1.122063980405e-07
+   68 KSP Residual norm 1.365655269785e-05
+   68 KSP preconditioned resid norm 1.365655269785e-05 true resid norm 4.772849003138e-07 ||r(i)||/||b|| 8.839437291066e-08
+   69 KSP Residual norm 1.166478453351e-05
+   69 KSP preconditioned resid norm 1.166478453351e-05 true resid norm 4.212632682020e-07 ||r(i)||/||b|| 7.801902469265e-08
+   70 KSP Residual norm 1.024808152254e-05
+   70 KSP preconditioned resid norm 1.024808152254e-05 true resid norm 3.681926423927e-07 ||r(i)||/||b|| 6.819021031929e-08
+   71 KSP Residual norm 8.985720851412e-06
+   71 KSP preconditioned resid norm 8.985720851412e-06 true resid norm 3.156937869829e-07 ||r(i)||/||b|| 5.846728927271e-08
+   72 KSP Residual norm 7.977351071768e-06
+   72 KSP preconditioned resid norm 7.977351071768e-06 true resid norm 2.906010307424e-07 ||r(i)||/||b|| 5.382004723548e-08
+   73 KSP Residual norm 7.150724168855e-06
+   73 KSP preconditioned resid norm 7.150724168855e-06 true resid norm 2.576075062922e-07 ||r(i)||/||b|| 4.770956290636e-08
+   74 KSP Residual norm 6.166940771236e-06
+   74 KSP preconditioned resid norm 6.166940771236e-06 true resid norm 2.240001579786e-07 ||r(i)||/||b|| 4.148539684241e-08
+   75 KSP Residual norm 4.878849305841e-06
+   75 KSP preconditioned resid norm 4.878849305841e-06 true resid norm 1.791787434333e-07 ||r(i)||/||b|| 3.318435729748e-08
+   76 KSP Residual norm 3.854501630157e-06
+   76 KSP preconditioned resid norm 3.854501630157e-06 true resid norm 1.375035989117e-07 ||r(i)||/||b|| 2.546601493314e-08
+   77 KSP Residual norm 3.231256504172e-06
+   77 KSP preconditioned resid norm 3.231256504172e-06 true resid norm 1.150236654204e-07 ||r(i)||/||b|| 2.130267428958e-08
+   78 KSP Residual norm 2.710725043750e-06
+   78 KSP preconditioned resid norm 2.710725043750e-06 true resid norm 1.014123002357e-07 ||r(i)||/||b|| 1.878181496809e-08
+   79 KSP Residual norm 2.000601078197e-06
+   79 KSP preconditioned resid norm 2.000601078197e-06 true resid norm 7.491130753538e-08 ||r(i)||/||b|| 1.387376397023e-08
+   80 KSP Residual norm 1.391967554138e-06
+   80 KSP preconditioned resid norm 1.391967554138e-06 true resid norm 4.944124785979e-08 ||r(i)||/||b|| 9.156644380773e-09
+   81 KSP Residual norm 1.051988940075e-06
+   81 KSP preconditioned resid norm 1.051988940075e-06 true resid norm 3.809447072419e-08 ||r(i)||/||b|| 7.055192504129e-09
+   82 KSP Residual norm 8.260274874588e-07
+   82 KSP preconditioned resid norm 8.260274874588e-07 true resid norm 3.065331278242e-08 ||r(i)||/||b|| 5.677071198470e-09
+   83 KSP Residual norm 6.117798383928e-07
+   83 KSP preconditioned resid norm 6.117798383928e-07 true resid norm 2.222632692172e-08 ||r(i)||/||b|| 4.116372064276e-09
+   84 KSP Residual norm 4.671633829915e-07
+   84 KSP preconditioned resid norm 4.671633829915e-07 true resid norm 1.654966059099e-08 ||r(i)||/||b|| 3.065039075954e-09
+   85 KSP Residual norm 3.880531150641e-07
+   85 KSP preconditioned resid norm 3.880531150641e-07 true resid norm 1.440504572455e-08 ||r(i)||/||b|| 2.667850968538e-09
+   86 KSP Residual norm 3.131633426251e-07
+   86 KSP preconditioned resid norm 3.131633426251e-07 true resid norm 1.143293807441e-08 ||r(i)||/||b|| 2.117409100831e-09
+   87 KSP Residual norm 2.451021612279e-07
+   87 KSP preconditioned resid norm 2.451021612279e-07 true resid norm 8.985069353441e-09 ||r(i)||/||b|| 1.664057611154e-09
+   88 KSP Residual norm 1.788037412077e-07
+   88 KSP preconditioned resid norm 1.788037412077e-07 true resid norm 6.777347248553e-09 ||r(i)||/||b|| 1.255181883273e-09
+   89 KSP Residual norm 1.218206933421e-07
+   89 KSP preconditioned resid norm 1.218206933421e-07 true resid norm 4.505590205704e-09 ||r(i)||/||b|| 8.344467226257e-10
+   90 KSP Residual norm 8.774393382529e-08
+   90 KSP preconditioned resid norm 8.774393382529e-08 true resid norm 3.201980922027e-09 ||r(i)||/||b|| 5.930149801270e-10
+   91 KSP Residual norm 6.369244885197e-08
+   91 KSP preconditioned resid norm 6.369244885197e-08 true resid norm 2.364135529981e-09 ||r(i)||/||b|| 4.378438905381e-10
+   92 KSP Residual norm 4.487327536888e-08
+   92 KSP preconditioned resid norm 4.487327536888e-08 true resid norm 1.637307557770e-09 ||r(i)||/||b|| 3.032335084051e-10
+   93 KSP Residual norm 3.286346407941e-08
+   93 KSP preconditioned resid norm 3.286346407941e-08 true resid norm 1.233972370488e-09 ||r(i)||/||b|| 2.285348097261e-10
+   94 KSP Residual norm 2.312044005120e-08
+   94 KSP preconditioned resid norm 2.312044005120e-08 true resid norm 8.538967991322e-10 ||r(i)||/||b|| 1.581438508532e-10
+   95 KSP Residual norm 1.649430597968e-08
+   95 KSP preconditioned resid norm 1.649430597968e-08 true resid norm 6.055802964291e-10 ||r(i)||/||b|| 1.121550053536e-10
+   96 KSP Residual norm 1.201972087025e-08
+   96 KSP preconditioned resid norm 1.201972087025e-08 true resid norm 4.472327329733e-10 ||r(i)||/||b|| 8.282863537124e-11
+   97 KSP Residual norm 8.608264764673e-09
+   97 KSP preconditioned resid norm 8.608264764673e-09 true resid norm 3.225961154931e-10 ||r(i)||/||b|| 5.974561800232e-11
+   98 KSP Residual norm 6.213940302101e-09
+   98 KSP preconditioned resid norm 6.213940302101e-09 true resid norm 2.310709776146e-10 ||r(i)||/||b|| 4.279493055546e-11
+   99 KSP Residual norm 4.580848229116e-09
+   99 KSP preconditioned resid norm 4.580848229116e-09 true resid norm 1.657994073481e-10 ||r(i)||/||b|| 3.070647035315e-11
+  100 KSP Residual norm 3.633046646778e-09
+  100 KSP preconditioned resid norm 3.633046646778e-09 true resid norm 1.332775517402e-10 ||r(i)||/||b|| 2.468334028879e-11
+  101 KSP Residual norm 2.974028742737e-09
+  101 KSP preconditioned resid norm 2.974028742737e-09 true resid norm 1.074788574511e-10 ||r(i)||/||b|| 1.990535673619e-11
+  102 KSP Residual norm 2.516470955123e-09
+  102 KSP preconditioned resid norm 2.516470955123e-09 true resid norm 9.420947397039e-11 ||r(i)||/||b|| 1.744783329282e-11
+  103 KSP Residual norm 2.046235934049e-09
+  103 KSP preconditioned resid norm 2.046235934049e-09 true resid norm 7.652780799652e-11 ||r(i)||/||b|| 1.417314395161e-11
+  104 KSP Residual norm 1.563116512400e-09
+  104 KSP preconditioned resid norm 1.563116512400e-09 true resid norm 5.798729072407e-11 ||r(i)||/||b|| 1.073939317370e-11
+  105 KSP Residual norm 1.182065299936e-09
+  105 KSP preconditioned resid norm 1.182065299936e-09 true resid norm 4.354158830251e-11 ||r(i)||/||b|| 8.064012481860e-12
+  106 KSP Residual norm 9.595088983820e-10
+  106 KSP preconditioned resid norm 9.595088983820e-10 true resid norm 3.486299568483e-11 ||r(i)||/||b|| 6.456715138739e-12
+  107 KSP Residual norm 8.173865490944e-10
+  107 KSP preconditioned resid norm 8.173865490944e-10 true resid norm 3.061253176885e-11 ||r(i)||/||b|| 5.669518451424e-12
+  108 KSP Residual norm 6.904227667664e-10
+  108 KSP preconditioned resid norm 6.904227667664e-10 true resid norm 2.572073546998e-11 ||r(i)||/||b|| 4.763545381753e-12
+  109 KSP Residual norm 5.447019061041e-10
+  109 KSP preconditioned resid norm 5.447019061041e-10 true resid norm 2.048477829651e-11 ||r(i)||/||b|| 3.793832846050e-12
+  110 KSP Residual norm 3.782784538339e-10
+  110 KSP preconditioned resid norm 3.782784538339e-10 true resid norm 1.434160320991e-11 ||r(i)||/||b|| 2.656101254072e-12
+  111 KSP Residual norm 2.515412883233e-10
+  111 KSP preconditioned resid norm 2.515412883233e-10 true resid norm 9.349113773963e-12 ||r(i)||/||b|| 1.731479560272e-12
+  112 KSP Residual norm 1.745341837795e-10
+  112 KSP preconditioned resid norm 1.745341837795e-10 true resid norm 6.471451203200e-12 ||r(i)||/||b|| 1.198529160576e-12
+  113 KSP Residual norm 1.267146952093e-10
+  113 KSP preconditioned resid norm 1.267146952093e-10 true resid norm 4.747692450567e-12 ||r(i)||/||b|| 8.792846718273e-13
+  114 KSP Residual norm 9.440973065644e-11
+  114 KSP preconditioned resid norm 9.440973065644e-11 true resid norm 3.544222741723e-12 ||r(i)||/||b|| 6.563990323270e-13
+  115 KSP Residual norm 6.703731772272e-11
+  115 KSP preconditioned resid norm 6.703731772272e-11 true resid norm 2.540914494650e-12 ||r(i)||/||b|| 4.705838027278e-13
+  116 KSP Residual norm 4.531958292061e-11
+  116 KSP preconditioned resid norm 4.531958292061e-11 true resid norm 1.723370399485e-12 ||r(i)||/||b|| 3.191725647619e-13
+  117 KSP Residual norm 3.104545927090e-11
+  117 KSP preconditioned resid norm 3.104545927090e-11 true resid norm 1.141670141021e-12 ||r(i)||/||b|| 2.114402029480e-13
+  118 KSP Residual norm 2.264023408891e-11
+  118 KSP preconditioned resid norm 2.264023408891e-11 true resid norm 8.380690613948e-13 ||r(i)||/||b|| 1.552125137190e-13
+  119 KSP Residual norm 1.739283692606e-11
+  119 KSP preconditioned resid norm 1.739283692606e-11 true resid norm 6.443168003767e-13 ||r(i)||/||b|| 1.193291040376e-13
+  120 KSP Residual norm 1.342169071866e-11
+  120 KSP preconditioned resid norm 1.342169071866e-11 true resid norm 5.062259458866e-13 ||r(i)||/||b|| 9.375432788326e-14
+  121 KSP Residual norm 9.997249919401e-12
+  121 KSP preconditioned resid norm 9.997249919401e-12 true resid norm 3.727055471299e-13 ||r(i)||/||b|| 6.902601171169e-14
+  122 KSP Residual norm 7.178917942906e-12
+  122 KSP preconditioned resid norm 7.178917942906e-12 true resid norm 2.745495874055e-13 ||r(i)||/||b|| 5.084727925738e-14
+  123 KSP Residual norm 5.081851808586e-12
+  123 KSP preconditioned resid norm 5.081851808586e-12 true resid norm 1.894167907218e-13 ||r(i)||/||b|| 3.508046959709e-14
+  124 KSP Residual norm 3.629854275284e-12
+  124 KSP preconditioned resid norm 3.629854275284e-12 true resid norm 1.358843366824e-13 ||r(i)||/||b|| 2.516612346530e-14
+  125 KSP Residual norm 2.665507775470e-12
+  125 KSP preconditioned resid norm 2.665507775470e-12 true resid norm 9.938941563278e-14 ||r(i)||/||b|| 1.840717161394e-14
+  126 KSP Residual norm 2.131525355490e-12
+  126 KSP preconditioned resid norm 2.131525355490e-12 true resid norm 7.759644676367e-14 ||r(i)||/||b|| 1.437105855907e-14
+  127 KSP Residual norm 1.716627557879e-12
+  127 KSP preconditioned resid norm 1.716627557879e-12 true resid norm 6.695635840539e-14 ||r(i)||/||b|| 1.240048723464e-14
+  128 KSP Residual norm 1.199894723571e-12
+  128 KSP preconditioned resid norm 1.199894723571e-12 true resid norm 4.580090825512e-14 ||r(i)||/||b|| 8.482444261882e-15
+  129 KSP Residual norm 7.953004551186e-13
+  129 KSP preconditioned resid norm 7.953004551186e-13 true resid norm 2.974897915606e-14 ||r(i)||/||b|| 5.509586319414e-15
+  130 KSP Residual norm 5.411336397375e-13
+  130 KSP preconditioned resid norm 5.411336397375e-13 true resid norm 2.063132874644e-14 ||r(i)||/||b|| 3.820974360714e-15
+  131 KSP Residual norm 3.579338032042e-13
+  131 KSP preconditioned resid norm 3.579338032042e-13 true resid norm 1.379674094081e-14 ||r(i)||/||b|| 2.555191381232e-15
+  132 KSP Residual norm 2.322750090814e-13
+  132 KSP preconditioned resid norm 2.322750090814e-13 true resid norm 8.693112233924e-15 ||r(i)||/||b|| 1.609986412842e-15
+  133 KSP Residual norm 1.505731368956e-13
+  133 KSP preconditioned resid norm 1.505731368956e-13 true resid norm 5.788104997593e-15 ||r(i)||/||b|| 1.071971711795e-15
+  134 KSP Residual norm 9.056086805372e-14
+  134 KSP preconditioned resid norm 9.056086805372e-14 true resid norm 3.535222233488e-15 ||r(i)||/||b|| 6.547321153960e-16
+  135 KSP Residual norm 5.779242540301e-14
+  135 KSP preconditioned resid norm 5.779242540301e-14 true resid norm 2.137109040719e-15 ||r(i)||/||b|| 3.957980094737e-16
+  136 KSP Residual norm 4.044336664864e-14
+  136 KSP preconditioned resid norm 4.044336664864e-14 true resid norm 1.524500687104e-15 ||r(i)||/||b|| 2.823413901211e-16
+  137 KSP Residual norm 2.842489129431e-14
+  137 KSP preconditioned resid norm 2.842489129431e-14 true resid norm 1.093570126988e-15 ||r(i)||/||b|| 2.025319584704e-16
+  138 KSP Residual norm 2.038101304646e-14
+  138 KSP preconditioned resid norm 2.038101304646e-14 true resid norm 7.606623882998e-16 ||r(i)||/||b|| 1.408766017242e-16
+  139 KSP Residual norm 1.450644095584e-14
+  139 KSP preconditioned resid norm 1.450644095584e-14 true resid norm 5.546193390499e-16 ||r(i)||/||b|| 1.027169069191e-16
+  140 KSP Residual norm 9.624909252172e-15
+  140 KSP preconditioned resid norm 9.624909252172e-15 true resid norm 3.778674110722e-16 ||r(i)||/||b|| 6.998200199324e-17
+  141 KSP Residual norm 5.793194539018e-15
+  141 KSP preconditioned resid norm 5.793194539018e-15 true resid norm 2.231275256898e-16 ||r(i)||/||b|| 4.132378313139e-17
+  142 KSP Residual norm 3.460014020142e-15
+  142 KSP preconditioned resid norm 3.460014020142e-15 true resid norm 1.330492873474e-16 ||r(i)||/||b|| 2.464106514484e-17
+  143 KSP Residual norm 2.201886334942e-15
+  143 KSP preconditioned resid norm 2.201886334942e-15 true resid norm 8.385295148473e-17 ||r(i)||/||b|| 1.552977908651e-17
+  144 KSP Residual norm 1.496055592740e-15
+  144 KSP preconditioned resid norm 1.496055592740e-15 true resid norm 5.598109845832e-17 ||r(i)||/||b|| 1.036784128268e-17
+  145 KSP Residual norm 1.069555104108e-15
+  145 KSP preconditioned resid norm 1.069555104108e-15 true resid norm 4.087031823660e-17 ||r(i)||/||b|| 7.569286497034e-18
+  146 KSP Residual norm 7.680447253141e-16
+  146 KSP preconditioned resid norm 7.680447253141e-16 true resid norm 2.914022469860e-17 ||r(i)||/||b|| 5.396843451396e-18
+  147 KSP Residual norm 5.583803805047e-16
+  147 KSP preconditioned resid norm 5.583803805047e-16 true resid norm 2.084194306666e-17 ||r(i)||/||b|| 3.859980666487e-18
+  148 KSP Residual norm 4.235835153456e-16
+  148 KSP preconditioned resid norm 4.235835153456e-16 true resid norm 1.588419510557e-17 ||r(i)||/||b|| 2.941793181859e-18
+  149 KSP Residual norm 3.460363476094e-16
+  149 KSP preconditioned resid norm 3.460363476094e-16 true resid norm 1.273245541568e-17 ||r(i)||/||b|| 2.358083005228e-18
+  150 KSP Residual norm 2.828217150366e-16
+  150 KSP preconditioned resid norm 2.828217150366e-16 true resid norm 1.106399264857e-17 ||r(i)||/||b|| 2.049079473111e-18
+  151 KSP Residual norm 2.125468118816e-16
+  151 KSP preconditioned resid norm 2.125468118816e-16 true resid norm 7.966319218847e-18 ||r(i)||/||b|| 1.475382504858e-18
+  152 KSP Residual norm 1.689497314339e-16
+  152 KSP preconditioned resid norm 1.689497314339e-16 true resid norm 6.336160341965e-18 ||r(i)||/||b|| 1.173472950267e-18
+  153 KSP Residual norm 1.382067090718e-16
+  153 KSP preconditioned resid norm 1.382067090718e-16 true resid norm 5.209991206113e-18 ||r(i)||/||b|| 9.649035727542e-19
+  154 KSP Residual norm 1.103470542021e-16
+  154 KSP preconditioned resid norm 1.103470542021e-16 true resid norm 4.247064900765e-18 ||r(i)||/||b|| 7.865671810843e-19
+  155 KSP Residual norm 7.961808925025e-17
+  155 KSP preconditioned resid norm 7.961808925025e-17 true resid norm 3.070527038418e-18 ||r(i)||/||b|| 5.686693877969e-19
+  156 KSP Residual norm 5.410350225080e-17
+  156 KSP preconditioned resid norm 5.410350225080e-17 true resid norm 2.043364812620e-18 ||r(i)||/||b|| 3.784363408952e-19
+  157 KSP Residual norm 3.672097074601e-17
+  157 KSP preconditioned resid norm 3.672097074601e-17 true resid norm 1.416599508283e-18 ||r(i)||/||b|| 2.623578183972e-19
+  158 KSP Residual norm 2.627852017875e-17
+  158 KSP preconditioned resid norm 2.627852017875e-17 true resid norm 9.667864066345e-19 ||r(i)||/||b|| 1.790512922089e-19
+  159 KSP Residual norm 2.066696565524e-17
+  159 KSP preconditioned resid norm 2.066696565524e-17 true resid norm 7.828133960751e-19 ||r(i)||/||b|| 1.449790244917e-19
+  160 KSP Residual norm 1.689825077937e-17
+  160 KSP preconditioned resid norm 1.689825077937e-17 true resid norm 6.321127524966e-19 ||r(i)||/||b|| 1.170688834468e-19
+  161 KSP Residual norm 1.333701147931e-17
+  161 KSP preconditioned resid norm 1.333701147931e-17 true resid norm 5.230622759517e-19 ||r(i)||/||b|| 9.687245887220e-20
+  162 KSP Residual norm 9.513706376458e-18
+  162 KSP preconditioned resid norm 9.513706376458e-18 true resid norm 3.591621081620e-19 ||r(i)||/||b|| 6.651773249768e-20
+  163 KSP Residual norm 6.642656974243e-18
+  163 KSP preconditioned resid norm 6.642656974243e-18 true resid norm 2.551297875448e-19 ||r(i)||/||b|| 4.725068311616e-20
+  164 KSP Residual norm 4.515681137933e-18
+  164 KSP preconditioned resid norm 4.515681137933e-18 true resid norm 1.740218874729e-19 ||r(i)||/||b|| 3.222929450686e-20
+  165 KSP Residual norm 2.899335725100e-18
+  165 KSP preconditioned resid norm 2.899335725100e-18 true resid norm 1.136494251558e-19 ||r(i)||/||b|| 2.104816151045e-20
+  166 KSP Residual norm 1.777175534141e-18
+  166 KSP preconditioned resid norm 1.777175534141e-18 true resid norm 6.724262775957e-20 ||r(i)||/||b|| 1.245350504440e-20
+  167 KSP Residual norm 1.193100037079e-18
+  167 KSP preconditioned resid norm 1.193100037079e-18 true resid norm 4.527159056181e-20 ||r(i)||/||b|| 8.384413283865e-21
+  168 KSP Residual norm 8.677807989705e-19
+  168 KSP preconditioned resid norm 8.677807989705e-19 true resid norm 3.263447008038e-20 ||r(i)||/||b|| 6.043986550025e-21
+  169 KSP Residual norm 6.714918020133e-19
+  169 KSP preconditioned resid norm 6.714918020133e-19 true resid norm 2.492550972195e-20 ||r(i)||/||b|| 4.616267558227e-21
+  170 KSP Residual norm 5.806062090229e-19
+  170 KSP preconditioned resid norm 5.806062090229e-19 true resid norm 2.130977829023e-20 ||r(i)||/||b|| 3.946624935320e-21
+  171 KSP Residual norm 5.797634855053e-19
+  171 KSP preconditioned resid norm 5.797634855053e-19 true resid norm 2.154604054627e-20 ||r(i)||/||b|| 3.990381303793e-21
+  172 KSP Residual norm 6.204473549527e-19
+  172 KSP preconditioned resid norm 6.204473549527e-19 true resid norm 2.328554290110e-20 ||r(i)||/||b|| 4.312541547560e-21
+  173 KSP Residual norm 6.679100778590e-19
+  173 KSP preconditioned resid norm 6.679100778590e-19 true resid norm 2.467193690966e-20 ||r(i)||/||b|| 4.569305230873e-21
+  174 KSP Residual norm 7.073373850055e-19
+  174 KSP preconditioned resid norm 7.073373850055e-19 true resid norm 2.771330581998e-20 ||r(i)||/||b|| 5.132574459464e-21
+  175 KSP Residual norm 6.310937533006e-19
+  175 KSP preconditioned resid norm 6.310937533006e-19 true resid norm 2.446530134283e-20 ||r(i)||/||b|| 4.531035800312e-21
+  176 KSP Residual norm 4.822552344752e-19
+  176 KSP preconditioned resid norm 4.822552344752e-19 true resid norm 1.811015499481e-20 ||r(i)||/||b|| 3.354046593615e-21
+  177 KSP Residual norm 3.716472892644e-19
+  177 KSP preconditioned resid norm 3.716472892644e-19 true resid norm 1.391086958903e-20 ||r(i)||/||b|| 2.576328296067e-21
+  178 KSP Residual norm 3.055250844962e-19
+  178 KSP preconditioned resid norm 3.055250844962e-19 true resid norm 1.153046529749e-20 ||r(i)||/||b|| 2.135471389666e-21
+  179 KSP Residual norm 2.590632276520e-19
+  179 KSP preconditioned resid norm 2.590632276520e-19 true resid norm 9.733875444824e-21 ||r(i)||/||b|| 1.802738396647e-21
+  180 KSP Residual norm 2.077399737914e-19
+  180 KSP preconditioned resid norm 2.077399737914e-19 true resid norm 8.001383864100e-21 ||r(i)||/||b|| 1.481876566008e-21
+  181 KSP Residual norm 1.540204429337e-19
+  181 KSP preconditioned resid norm 1.540204429337e-19 true resid norm 5.776060468145e-21 ||r(i)||/||b|| 1.069741034422e-21
+  182 KSP Residual norm 1.171052998034e-19
+  182 KSP preconditioned resid norm 1.171052998034e-19 true resid norm 4.447600357833e-21 ||r(i)||/||b|| 8.237068558619e-22
+  183 KSP Residual norm 9.186979573331e-20
+  183 KSP preconditioned resid norm 9.186979573331e-20 true resid norm 3.548980111791e-21 ||r(i)||/||b|| 6.572801093182e-22
+  184 KSP Residual norm 6.675768285746e-20
+  184 KSP preconditioned resid norm 6.675768285746e-20 true resid norm 2.547655873644e-21 ||r(i)||/||b|| 4.718323231992e-22
+  185 KSP Residual norm 4.660578731857e-20
+  185 KSP preconditioned resid norm 4.660578731857e-20 true resid norm 1.785944310247e-21 ||r(i)||/||b|| 3.307614115884e-22
+  186 KSP Residual norm 3.189025330049e-20
+  186 KSP preconditioned resid norm 3.189025330049e-20 true resid norm 1.230569090592e-21 ||r(i)||/||b|| 2.279045136660e-22
+  187 KSP Residual norm 2.264359993647e-20
+  187 KSP preconditioned resid norm 2.264359993647e-20 true resid norm 8.320238246394e-22 ||r(i)||/||b|| 1.540929205541e-22
+  188 KSP Residual norm 1.791194639937e-20
+  188 KSP preconditioned resid norm 1.791194639937e-20 true resid norm 6.801465654652e-22 ||r(i)||/||b|| 1.259648673195e-22
+  189 KSP Residual norm 1.335081454433e-20
+  189 KSP preconditioned resid norm 1.335081454433e-20 true resid norm 5.177425270999e-22 ||r(i)||/||b|| 9.588722790535e-23
+  190 KSP Residual norm 9.311683856434e-21
+  190 KSP preconditioned resid norm 9.311683856434e-21 true resid norm 3.577147967369e-22 ||r(i)||/||b|| 6.624968675446e-23
+  191 KSP Residual norm 6.188045991843e-21
+  191 KSP preconditioned resid norm 6.188045991843e-21 true resid norm 2.432138564019e-22 ||r(i)||/||b|| 4.504382247520e-23
+  192 KSP Residual norm 3.820125554429e-21
+  192 KSP preconditioned resid norm 3.820125554429e-21 true resid norm 1.494651540505e-22 ||r(i)||/||b|| 2.768132525374e-23
+  193 KSP Residual norm 2.304519675333e-21
+  193 KSP preconditioned resid norm 2.304519675333e-21 true resid norm 8.934808320757e-23 ||r(i)||/||b|| 1.654749140547e-23
+  194 KSP Residual norm 1.382651034168e-21
+  194 KSP preconditioned resid norm 1.382651034168e-21 true resid norm 5.329550602871e-23 ||r(i)||/||b|| 9.870462759804e-24
+  195 KSP Residual norm 9.393716873562e-22
+  195 KSP preconditioned resid norm 9.393716873562e-22 true resid norm 3.458022440599e-23 ||r(i)||/||b|| 6.404345181395e-24
+  196 KSP Residual norm 6.980294831642e-22
+  196 KSP preconditioned resid norm 6.980294831642e-22 true resid norm 2.655672543767e-23 ||r(i)||/||b|| 4.918372842049e-24
+  197 KSP Residual norm 5.050014355812e-22
+  197 KSP preconditioned resid norm 5.050014355812e-22 true resid norm 1.950620491137e-23 ||r(i)||/||b|| 3.612598575555e-24
+  198 KSP Residual norm 3.385915199788e-22
+  198 KSP preconditioned resid norm 3.385915199788e-22 true resid norm 1.304707028912e-23 ||r(i)||/||b|| 2.416350476979e-24
+  199 KSP Residual norm 2.235992285238e-22
+  199 KSP preconditioned resid norm 2.235992285238e-22 true resid norm 8.500199247398e-24 ||r(i)||/||b|| 1.574258438923e-24
+  200 KSP Residual norm 1.611978761854e-22
+  200 KSP preconditioned resid norm 1.611978761854e-22 true resid norm 6.214376136699e-24 ||r(i)||/||b|| 1.150918206868e-24
+    Linear solve did not converge due to DIVERGED_ITS iterations 200
+KSP Object: 1 MPI process
+  type: cg
+  maximum iterations=200, initial guess is zero
+  tolerances: relative=0., absolute=1e-50, divergence=10000.
+  left preconditioning
+  using PRECONDITIONED norm type for convergence test
+PC Object: 1 MPI process
+  type: icc
+    out-of-place factorization
+    0 levels of fill
+    tolerance for zero pivot 2.22045e-14
+    using Manteuffel shift [POSITIVE_DEFINITE]
+    matrix ordering: natural
+    factor fill ratio given 1., needed 1.
+      Factored matrix follows:
+        Mat Object: 1 MPI process
+          type: seqaijcusparse
+          rows=274625, cols=274625
+          package used to perform factorization: cusparse
+          total: nonzeros=1897025, allocated nonzeros=1897025
+            not using I-node routines
+  linear system matrix = precond matrix:
+  Mat Object: 1 MPI process
+    type: seqaijcusparse
+    rows=274625, cols=274625
+    total: nonzeros=1897025, allocated nonzeros=1897025
+    total number of mallocs used during MatSetValues calls=0
+      not using I-node routines
+problem manuexp on 65 x 65 x 65 point 3D grid:
+  error |u-uexact|_inf = 7.050e+00, |u-uexact|_h = 1.785e+00
+****************************************************************************************************************************************************************
+***                                WIDEN YOUR WINDOW TO 160 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document                                 ***
+****************************************************************************************************************************************************************
+
+------------------------------------------------------------------ PETSc Performance Summary: ------------------------------------------------------------------
+
+
+
+      ##########################################################
+      #                                                        #
+      #                       WARNING!!!                       #
+      #                                                        #
+      #   This code was run with -log_view_gpu_time            #
+      #   This provides accurate timing within the GPU kernels #
+      #   but can slow down the entire computation by a        #
+      #   measurable amount. For fastest runs we recommend     #
+      #   not using this option.                               #
+      #                                                        #
+      ##########################################################
+
+
+./fish on a arch-cuda-opt named localhost.localdomain with 1 process and CUDA architecture 75, by luohao on Wed Nov  6 18:26:42 2024
+Using Petsc Release Version 3.22.1, Oct 28, 2024 
+
+                         Max       Max/Min     Avg       Total
+Time (sec):           1.708e+00     1.000   1.708e+00
+Objects:              0.000e+00     0.000   0.000e+00
+Flops:                2.197e+09     1.000   2.197e+09  2.197e+09
+Flops/sec:            1.287e+09     1.000   1.287e+09  1.287e+09
+MPI Msg Count:        0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Msg Len (bytes):  0.000e+00     0.000   0.000e+00  0.000e+00
+MPI Reductions:       0.000e+00     0.000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flop ------  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total    Count   %Total     Avg         %Total    Count   %Total
+ 0:      Main Stage: 1.7080e+00 100.0%  2.1975e+09 100.0%  0.000e+00   0.0%  0.000e+00        0.0%  0.000e+00   0.0%
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flop: Max - maximum over all processors
+                  Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   AvgLen: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flop in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flop over all processors)/(max time over all processors)
+   GPU Mflop/s: 10e-6 * (sum of flop on GPU over all processors)/(max GPU time over all processors)
+   CpuToGpu Count: total number of CPU to GPU copies per processor
+   CpuToGpu Size (Mbytes): 10e-6 * (total size of CPU to GPU copies per processor)
+   GpuToCpu Count: total number of GPU to CPU copies per processor
+   GpuToCpu Size (Mbytes): 10e-6 * (total size of GPU to CPU copies per processor)
+   GPU %F: percent flops on GPU in this event
+------------------------------------------------------------------------------------------------------------------------
+Event                Count      Time (sec)     Flop                              --- Global ---  --- Stage ----  Total   GPU    - CpuToGpu -   - GpuToCpu - GPU
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   AvgLen  Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s Mflop/s Count   Size   Count   Size  %F
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+BuildTwoSided          2 1.0 1.9635e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DMCreateMat            1 1.0 7.7475e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  5  0  0  0  0   5  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFSetGraph             2 1.0 1.1704e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFSetUp                2 1.0 8.7819e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFPack                 3 1.0 4.1900e-07 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SFUnpack               3 1.0 9.8300e-07 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecTDot              403 1.0 2.7252e-02 1.0 2.21e+08 1.0 0.0e+00 0.0e+00 0.0e+00  2 10  0  0  0   2 10  0  0  0  8122    9173      1 2.20e+00    0 0.00e+00  100
+VecNorm              405 1.0 6.2982e-02 1.0 2.22e+08 1.0 0.0e+00 0.0e+00 0.0e+00  4 10  0  0  0   4 10  0  0  0  3523    3701      0 0.00e+00    1 8.00e-06  100
+VecCopy              203 1.0 2.1505e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecSet                 2 1.0 2.8918e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecAXPY              401 1.0 9.0654e-03 1.0 2.20e+08 1.0 0.0e+00 0.0e+00 0.0e+00  1 10  0  0  0   1 10  0  0  0 24295   34148      1 2.20e+00    0 0.00e+00  100
+VecAYPX              199 1.0 6.1599e-03 1.0 1.09e+08 1.0 0.0e+00 0.0e+00 0.0e+00  0  5  0  0  0   0  5  0  0  0 17744   23240      0 0.00e+00    0 0.00e+00  100
+VecScatterBegin        3 1.0 1.9977e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      2 4.39e+00    0 0.00e+00  0
+VecScatterEnd          3 1.0 1.6385e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+VecCUDACopyTo          5 1.0 8.0785e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      5 1.10e+01    0 0.00e+00  0
+VecCUDACopyFrom        3 1.0 5.5869e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    3 6.59e+00  0
+MatMult              200 1.0 2.3100e-02 1.0 7.04e+08 1.0 0.0e+00 0.0e+00 0.0e+00  1 32  0  0  0   1 32  0  0  0 30471   32593      0 0.00e+00    0 0.00e+00  100
+MatSolve             201 1.0 1.9891e-01 1.0 7.07e+08 1.0 0.0e+00 0.0e+00 0.0e+00 12 32  0  0  0  12 32  0  0  0  3556    3589      1 2.20e+00    0 0.00e+00  100
+MatCholFctrNum         1 1.0 2.0927e-02 1.0 9.54e+06 1.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0   456       0      0 0.00e+00    0 0.00e+00  100
+MatICCFactorSym        1 1.0 3.2764e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   2  0  0  0  0     0       0      1 2.39e+01    0 0.00e+00  0
+MatAssemblyBegin       2 1.0 1.2680e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatAssemblyEnd         2 1.0 2.1736e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatGetRowIJ            1 1.0 2.0110e-06 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatGetOrdering         1 1.0 1.6195e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatView                2 1.0 7.6566e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+MatCUSPARSCopyTo       1 1.0 7.0451e-03 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      1 2.39e+01    0 0.00e+00  0
+KSPSetUp               1 1.0 5.1009e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+KSPSolve               1 1.0 3.6119e-01 1.0 2.18e+09 1.0 0.0e+00 0.0e+00 0.0e+00 21 99  0  0  0  21 99  0  0  0  6044    6896      2 4.39e+00    0 0.00e+00  100
+SNESSolve              1 1.0 4.6573e-01 1.0 2.20e+09 1.0 0.0e+00 0.0e+00 0.0e+00 27 100  0  0  0  27 100  0  0  0  4716    6926      5 3.27e+01    2 4.39e+00  100
+SNESSetUp              1 1.0 7.7528e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  5  0  0  0  0   5  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+SNESFunctionEval       1 1.0 9.8597e-03 1.0 3.84e+06 1.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0   390       0      1 2.20e+00    1 2.20e+00  0
+SNESJacobianEval       1 1.0 3.8754e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  2  0  0  0  0   2  0  0  0  0     0       0      1 2.20e+00    1 2.20e+00  0
+PCSetUp                1 1.0 5.5683e-02 1.0 9.54e+06 1.0 0.0e+00 0.0e+00 0.0e+00  3  0  0  0  0   3  0  0  0  0   171       0      1 2.39e+01    0 0.00e+00  100
+PCApply              201 1.0 1.9903e-01 1.0 7.07e+08 1.0 0.0e+00 0.0e+00 0.0e+00 12 32  0  0  0  12 32  0  0  0  3554    3589      1 2.20e+00    0 0.00e+00  100
+cuBLAS Init            1 1.0 1.5102e-02 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  1  0  0  0  0   1  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DCtxCreate             2 1.0 2.9914e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DCtxDestroy            2 1.0 4.7863e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DCtxSetUp              2 1.0 3.7627e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DCtxSetDevice          2 1.0 6.8783e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+DCtxSync               7 1.0 5.7600e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0       0      0 0.00e+00    0 0.00e+00  0
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Object Type          Creations   Destructions. Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+           Container     7              7
+    Distributed Mesh     2              2
+           Index Set     8              8
+   IS L to G Mapping     2              2
+   Star Forest Graph     6              6
+     Discrete System     2              2
+           Weak Form     2              2
+              Vector   419            419
+                SNES     1              1
+              DMSNES     1              1
+       Krylov Solver     1              1
+     DMKSP interface     1              1
+              Matrix     3              3
+      Preconditioner     1              1
+              Viewer     1              1
+  PetscDeviceContext     2              0
+========================================================================================================================
+Average time to get PetscTime(): 2.67e-08
+#PETSc Option Table entries:
+-da_refine 5 # (source: command line)
+-dm_vec_type cuda # (source: command line)
+-fsh_cx 1 # (source: command line)
+-fsh_cy 1 # (source: command line)
+-fsh_cz 1 # (source: command line)
+-fsh_dim 3 # (source: command line)
+-fsh_problem manuexp # (source: command line)
+-initial_gonboundary 1 # (source: command line)
+-ksp_converged_reason # (source: command line)
+-ksp_max_it 200 # (source: command line)
+-ksp_monitor # (source: command line)
+-ksp_monitor_true_residual # (source: command line)
+-ksp_rtol 0 # (source: command line)
+-ksp_type cg # (source: command line)
+-ksp_view # (source: command line)
+-log_view # (source: command line)
+-log_view_gpu_time # (source: command line)
+-mat_type aijcusparse # (source: command line)
+-pc_factor_levels 0 # (source: command line)
+-pc_factor_mat_solver_type cusparse # (source: command line)
+-pc_type icc # (source: command line)
+-use_gpu_aware_mpi 0 # (source: command line)
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --with-debugging=no --with-cuda=1
+-----------------------------------------
+Libraries compiled on 2024-11-02 16:49:32 on localhost.localdomain 
+Machine characteristics: Linux-3.10.0-1160.95.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core
+Using PETSc directory: /share/userfile/luohao/petsc-3.22.1
+Using PETSc arch: arch-cuda-opt
+-----------------------------------------
+
+Using C compiler: mpicc  -fPIC -Wall -Wwrite-strings -Wno-unknown-pragmas -Wno-lto-type-mismatch -Wno-stringop-overflow -fstack-protector -fvisibility=hidden -Wall -Wwrite-strings -Wno-unknown-pragmas -Wno-lto-type-mismatch -Wno-stringop-overflow -fstack-protector -fvisibility=hidden -g -O  
+Using Fortran compiler: mpif90  -fPIC -Wall -ffree-line-length-none -ffree-line-length-0 -Wno-lto-type-mismatch -Wno-unused-dummy-argument -Wall -ffree-line-length-none -ffree-line-length-0 -Wno-lto-type-mismatch -Wno-unused-dummy-argument -g -O    
+-----------------------------------------
+
+Using include paths: -I/share/userfile/luohao/petsc-3.22.1/include -I/share/userfile/luohao/petsc-3.22.1/arch-cuda-opt/include -I/share/software/cuda-12.4/include
+-----------------------------------------
+
+Using C linker: mpicc
+Using Fortran linker: mpif90
+Using libraries: -Wl,-rpath,/share/userfile/luohao/petsc-3.22.1/arch-cuda-opt/lib -L/share/userfile/luohao/petsc-3.22.1/arch-cuda-opt/lib -lpetsc -Wl,-rpath,/share/software/intel/mkl/lib/intel64 -L/share/software/intel/mkl/lib/intel64 -Wl,-rpath,/share/software/cuda-12.4/lib64 -L/share/software/cuda-12.4/lib64 -L/share/software/cuda-12.4/lib64/stubs -Wl,-rpath,/share/software/mpich-4.0.3/lib -L/share/software/mpich-4.0.3/lib -Wl,-rpath,/share/software/gcc-13.2.0/lib64 -L/share/software/gcc-13.2.0/lib64 -Wl,-rpath,/home/luohao/.local/lib64 -L/home/luohao/.local/lib64 -Wl,-rpath,/share/software/gcc-13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0 -L/share/software/gcc-13.2.0/lib/gcc/x86_64-pc-linux-gnu/13.2.0 -Wl,-rpath,/share/software/gcc-13.2.0/lib -L/share/software/gcc-13.2.0/lib -Wl,-rpath,/share/software/gdb/gdb-11.1/lib -L/share/software/gdb/gdb-11.1/lib -Wl,-rpath,/share/software/binutils/binutils-2.37/lib -L/share/software/binutils/binutils-2.37/lib -Wl,-rpath,/home/luohao/.local/lib -L/home/luohao/.local/lib -Wl,-rpath,/share/userfile/luohao/petsc-3.22.1 -L/share/userfile/luohao/petsc-3.22.1 -lmkl_intel_lp64 -lmkl_core -lmkl_sequential -lpthread -lm -lcudart -lnvToolsExt -lcufft -lcublas -lcusparse -lcusolver -lcurand -lcuda -lX11 -ldl -lmpifort -lmpi -lgfortran -lm -lgfortran -lm -lgcc_s -lquadmath -lstdc++ -lquadmath -ldl
+-----------------------------------------
+
+WARNING! There are options you set that were not used!
+WARNING! could be spelling mistake, etc!
+There is one unused database option. It is:
+Option left: name:-initial_gonboundary value: 1 source: command line
