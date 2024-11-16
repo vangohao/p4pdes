@@ -210,8 +210,8 @@ int main(int argc,char **argv) {
             break;
         case 2:
             PetscCall(DMDACreate2d(PETSC_COMM_WORLD,
-                DM_BOUNDARY_NONE,DM_BOUNDARY_NONE,DMDA_STENCIL_STAR,
-                3,3,PETSC_DECIDE,PETSC_DECIDE,1,1,NULL,NULL,&da));
+                DM_BOUNDARY_NONE,DM_BOUNDARY_NONE,(stencil_type == 0 ? DMDA_STENCIL_STAR : DMDA_STENCIL_BOX),
+                3,3,PETSC_DECIDE,PETSC_DECIDE,1,stencil_width,NULL,NULL,&da));
             break;
         case 3:
             PetscCall(DMDACreate3d(PETSC_COMM_WORLD,
