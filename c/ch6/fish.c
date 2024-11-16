@@ -142,6 +142,9 @@ int main(int argc,char **argv) {
     InitialType    initial = ZEROS;          // set u=0 for initial iterate
     PetscBool      gonboundary = PETSC_TRUE; // initial iterate has u=g on boundary
 
+    PetscInt stencil_type = 0; // 0 is STAR, 1 is BOX
+    PetscInt stencil_width = 1;
+
     PetscCall(PetscInitialize(&argc,&argv,NULL,help));
 
     // get options and configure context
@@ -182,6 +185,12 @@ int main(int argc,char **argv) {
     PetscCall(PetscOptionsEnum("-problem",
          "problem type; determines exact solution and RHS",
          "fish.c",ProblemTypes,(PetscEnum)problem,(PetscEnum*)&problem,NULL));
+    PetscCall(PetscOptionsInt("-stencil_type",
+         "type of stencil for DMDA",
+         "fish.c",0, &stencil_type,NULL));
+    PetscCall(PetscOptionsInt("-stencil_width",
+         "width of stencil for DMDA",
+         "fish.c",1, &stencil_width,NULL));
     PetscOptionsEnd();
     user.g_bdry = g_bdry_ptr[dim-1][problem];
     user.f_rhs = f_rhs_ptr[dim-1][problem];
@@ -207,9 +216,9 @@ int main(int argc,char **argv) {
         case 3:
             PetscCall(DMDACreate3d(PETSC_COMM_WORLD,
                 DM_BOUNDARY_NONE, DM_BOUNDARY_NONE, DM_BOUNDARY_NONE,
-                DMDA_STENCIL_STAR,
+                (stencil_type == 0 ? DMDA_STENCIL_STAR : DMDA_STENCIL_BOX), // STAR 
                 3,3,3,PETSC_DECIDE,PETSC_DECIDE,PETSC_DECIDE,
-                1,1,NULL,NULL,NULL,&da));
+                1,stencil_width,NULL,NULL,NULL,&da));
             break;
         default:
             SETERRQ(PETSC_COMM_SELF,1,"invalid dim for DMDA creation\n");
