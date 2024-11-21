@@ -28,12 +28,17 @@ static PetscReal u_exact_1Dmanuexp(PetscReal x, PetscReal y, PetscReal z, void *
     return - PetscExpReal(x);
 }
 
+#define PI 3.14159265358979323846
 static PetscReal u_exact_2Dmanuexp(PetscReal x, PetscReal y, PetscReal z, void *ctx) {
     return - x * PetscExpReal(y);
+    // return 1. / (65. * PI * PI) * sin(PI * x) * sin(8 * PI * y);
+    // return 1. / (64. * 65. * PI * PI) * sin(8 * PI * x) * sin(64 * PI * y);
+    // return 1. / (5. * PI * PI) * sin(PI * x) * sin(2 * PI * y);
 }
 
 static PetscReal u_exact_3Dmanuexp(PetscReal x, PetscReal y, PetscReal z, void *ctx) {
     return - x * PetscExpReal(y + z);
+    // return 1. / (69. * PI * PI) * sin(PI * x) * sin(2 * PI * y) * sin(8 * PI * z);
 }
 
 static PetscReal zero(PetscReal x, PetscReal y, PetscReal z, void *ctx) {
@@ -75,10 +80,14 @@ static PetscReal f_rhs_1Dmanuexp(PetscReal x, PetscReal y, PetscReal z, void *ct
 
 static PetscReal f_rhs_2Dmanuexp(PetscReal x, PetscReal y, PetscReal z, void *ctx) {
     return x * PetscExpReal(y);  // note  f = - (u_xx + u_yy) = - u
+    // return sin(PI * x) * sin(8 * PI * y);
+    // return sin(8 * PI * x) * sin(64 * PI * y);
+    // return sin(PI * x) * sin(2 * PI * y);
 }
 
 static PetscReal f_rhs_3Dmanuexp(PetscReal x, PetscReal y, PetscReal z, void *ctx) {
     return 2.0 * x * PetscExpReal(y + z);  // note  f = - laplacian u = - 2 u
+    // return sin(PI * x) * sin(2 * PI * y) * sin(8 * PI * z);
 }
 
 // functions simply to put u_exact()=g_bdry() into a grid
