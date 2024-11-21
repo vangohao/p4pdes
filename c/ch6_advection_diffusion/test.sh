@@ -1,0 +1,20 @@
+#!/bin/bash
+# taskset -c 0-71:2 mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 129 -da_grid_y 129 -da_grid_z 129 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 20000 -mat_type aij -ksp_monitor -ksp_type richardson -pc_type sor -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-129-sor.out | grep "Linear solve converged"
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 129 -da_grid_y 129 -da_grid_z 129 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 20000 -mat_type aij -ksp_monitor -ksp_type richardson -pc_type jacobi -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-129-jacobi.out | grep "Linear solve converged" &
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 129 -da_grid_y 129 -da_grid_z 129 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 20000 -mat_type aij -ksp_monitor -ksp_type cg -pc_type icc -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-129-cg.out | grep "Linear solve converged" &
+
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 65 -da_grid_y 65 -da_grid_z 65 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 50000 -mat_type aij -ksp_monitor -ksp_type richardson -pc_type sor -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-65-sor.out | grep "Linear solve converged" &
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 65 -da_grid_y 65 -da_grid_z 65 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 50000 -mat_type aij -ksp_monitor -ksp_type richardson -pc_type jacobi -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-65-jacobi.out | grep "Linear solve converged"&
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 65 -da_grid_y 65 -da_grid_z 65 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 50000 -mat_type aij -ksp_monitor -ksp_type cg -pc_type icc -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-65-cg.out | grep "Linear solve converged" &
+
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 257 -da_grid_y 257 -da_grid_z 257 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 50000 -mat_type aij -ksp_monitor -ksp_type richardson -pc_type sor -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-257-sor.out | grep "Linear solve converged" &
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 257 -da_grid_y 257 -da_grid_z 257 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 50000 -mat_type aij -ksp_monitor -ksp_type richardson -pc_type jacobi -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-257-jacobi.out | grep "Linear solve converged" &
+mpiexec -n 1 ./fish -fsh_dim 3 -da_grid_x 257 -da_grid_y 257 -da_grid_z 257 -fsh_problem manuexp -ksp_converged_reason -fsh_cx 1 -fsh_cy 1 -fsh_cz 1 -ksp_max_it 50000 -mat_type aij -ksp_monitor -ksp_type cg -pc_type icc -pc_sor_forward -ksp_norm_type unpreconditioned -log_view -ksp_monitor_true_residual  -ksp_view -initial_gonboundary 1 -ksp_rtol 1e-3 -pc_factor_levels 0 |tee test-257-cg.out | grep "Linear solve converged" &
+
+wait
+
+# -snes_monitor_residual
+# -ksp_type cg -pc_type icc
+# -ksp_type richardson -pc_type jacobi
+# -ksp_type richardson -pc_type sor  -pc_sor_forward
+ #-da_grid_x 32 -da_grid_y 32 -da_grid_z 32 -mat_view
