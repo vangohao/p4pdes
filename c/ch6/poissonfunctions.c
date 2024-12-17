@@ -78,7 +78,7 @@ PetscErrorCode Poisson3DFunctionLocal(DMDALocalInfo *info, PetscReal ***au,
     scx = user->cx * dvol / (hx*hx);
     scy = user->cy * dvol / (hy*hy);
     scz = user->cz * dvol / (hz*hz);
-    scdiag = 2.0 * (scx + scy + scz);
+    scdiag = 2.0 * (scx + scy + scz) + 3.0 * user->ca * hx * hx;
     for (k = info->zs; k < info->zs + info->zm; k++) {
         z = xyzmin[2] + k * hz;
         for (j = info->ys; j < info->ys + info->ym; j++) {
@@ -105,6 +105,7 @@ PetscErrorCode Poisson3DFunctionLocal(DMDALocalInfo *info, PetscReal ***au,
                                              : au[k-1][j][i];
                     aF[k][j][i] = scdiag * au[k][j][i]
                         - scx * (uw + ue) - scy * (us + un) - scz * (uu + ud)
+                        - user->ca * hx * hx * (uw + us + ud)
                         - dvol * user->f_rhs(x,y,z,user);
                 }
             }

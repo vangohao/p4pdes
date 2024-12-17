@@ -51,6 +51,7 @@ typedef struct {
     PetscReal (*g_bdry)(PetscReal x, PetscReal y, PetscReal z, void *ctx);
     // additional context; see example usage in ch7/minimal.c
     void   *addctx;
+    PetscReal ca;
 } PoissonCtx;
 
 PetscErrorCode Poisson1DFunctionLocal(DMDALocalInfo *info,
