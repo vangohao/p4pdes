@@ -214,10 +214,11 @@ int main(int argc,char **argv) {
         default:
             SETERRQ(PETSC_COMM_SELF,1,"invalid dim for DMDA creation\n");
     }
+    PetscCall(DMDASetInterpolationType(da, DMDA_Q0));
     PetscCall(DMSetApplicationContext(da,&user));
     PetscCall(DMSetFromOptions(da));
     PetscCall(DMSetUp(da));  // call BEFORE SetUniformCoordinates
-    PetscCall(DMDASetUniformCoordinates(da,0.0,user.Lx,0.0,user.Ly,0.0,user.Lz));
+    // PetscCall(DMDASetUniformCoordinates(da,0.0,user.Lx,0.0,user.Ly,0.0,user.Lz));
 
     // set SNES call-backs
     PetscCall(SNESCreate(PETSC_COMM_WORLD,&snes));
@@ -256,18 +257,18 @@ int main(int argc,char **argv) {
     PCType pc_type;
     PetscCall(PCGetType(pc, &pc_type));
 
-    // if (strcmp(pc_type, PCMG) == 0)
+    if (strcmp(pc_type, PCMG) == 0)
     {
-        // PetscCall(KSPGetOperators(ksp, &mat_ksp, NULL));
-        // MatType mat_type;
-        // PetscCall(MatGetType(mat_ksp, &mat_type));
+        PetscCall(KSPGetOperators(ksp, &mat_ksp, NULL));
+        MatType mat_type;
+        PetscCall(MatGetType(mat_ksp, &mat_type));
 
-        // PetscCall(PCMGGetLevels(pc, &mg_levels));
-        // for (int i = 1; i < mg_levels; i++)
-        // {
-        //     PetscCall(PCMGGetInterpolation(pc, i, &mat_interpolation));
-        //     PetscCall(MatSetType(mat_interpolation, mat_type));
-        // }
+        PetscCall(PCMGGetLevels(pc, &mg_levels));
+        for (int i = 1; i < mg_levels; i++)
+        {
+            PetscCall(PCMGGetInterpolation(pc, i, &mat_interpolation));
+            PetscCall(MatSetType(mat_interpolation, mat_type));
+        }
 
         // GPU测试
         PetscLogStage stage;
